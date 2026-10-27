@@ -1,0 +1,175 @@
+{
+  "version": 1,
+  "classification_source": "https://www.kaggle.com/datasets/salmaneunus/railway-track-fault-detection",
+  "models": [
+    {
+      "id": "rail-yolo",
+      "name": "YOLOv8n \u00b7 rail regions",
+      "mode": "defects",
+      "task": "detect",
+      "input_size": 416,
+      "classes": [
+        "railway"
+      ],
+      "path": "models/rail-yolo.onnx",
+      "externalData": [],
+      "origin": "Inherited reference weights; not trained in this rebuild",
+      "source": "https://github.com/pradeepxkumar/Rail-defect-detection",
+      "sha256_source": "89a4628f7236f3a85aaf9cc9ea17400642631e2ad295312c1ee67e6bb1828ec8",
+      "description": "Localizes railway regions. Does not classify rail defects.",
+      "metrics": null
+    },
+    {
+      "id": "obstacle-yolo",
+      "name": "YOLO11s \u00b7 track obstacles",
+      "mode": "obstacles",
+      "task": "detect",
+      "input_size": 416,
+      "classes": [
+        "Animal",
+        "Debris",
+        "Human",
+        "Object",
+        "Stone",
+        "Tree"
+      ],
+      "path": "models/obstacle-yolo.onnx",
+      "externalData": [
+        {
+          "path": "obstacle-yolo-weights-0.bin",
+          "data": "models/obstacle-yolo-weights-0.bin"
+        },
+        {
+          "path": "obstacle-yolo-weights-1.bin",
+          "data": "models/obstacle-yolo-weights-1.bin"
+        },
+        {
+          "path": "obstacle-yolo-weights-2.bin",
+          "data": "models/obstacle-yolo-weights-2.bin"
+        },
+        {
+          "path": "obstacle-yolo-weights-3.bin",
+          "data": "models/obstacle-yolo-weights-3.bin"
+        }
+      ],
+      "origin": "Inherited reference weights; not trained in this rebuild",
+      "source": "https://github.com/KirtirajChaudhari/Pravaas",
+      "sha256_source": "2ed4c315761a4b01e207251fe7d7b6f0b5541faa3962c8e874133efc15aa2928",
+      "description": "Six obstacle classes \u00b7 inherited YOLO11s checkpoint.",
+      "metrics": null
+    },
+    {
+      "id": "cnn",
+      "name": "Scratch CNN",
+      "mode": "classification",
+      "task": "classify",
+      "input_size": 128,
+      "classes": [
+        "Defective",
+        "Non-defective"
+      ],
+      "path": "models/cnn.onnx",
+      "description": "All parameters initialized randomly",
+      "origin": "Trained in this rebuild on Kaggle version 2",
+      "sha256": "89b3222b077fb682ce12d5305c9d4da876fb8606571838c13d96fbc23431f47e"
+    },
+    {
+      "id": "mobilenet",
+      "name": "MobileNetV3 \u00b7 frozen",
+      "mode": "classification",
+      "task": "classify",
+      "input_size": 128,
+      "classes": [
+        "Defective",
+        "Non-defective"
+      ],
+      "path": "models/mobilenet.onnx",
+      "description": "ImageNet features frozen; classification head trained",
+      "origin": "Trained in this rebuild on Kaggle version 2",
+      "sha256": "97d86632243bafcef0649255709088a5e5faead6331c5f1ffbb63c58f7a530ba"
+    },
+    {
+      "id": "finetuned",
+      "name": "MobileNetV3 \u00b7 fine-tuned",
+      "mode": "classification",
+      "task": "classify",
+      "input_size": 128,
+      "classes": [
+        "Defective",
+        "Non-defective"
+      ],
+      "path": "models/finetuned.onnx",
+      "description": "Starts from selected frozen model; last three feature blocks and head trained",
+      "origin": "Trained in this rebuild on Kaggle version 2",
+      "sha256": "405107313591c0d416fbf239420f977fb47181fbab4798034450637d2139a931"
+    }
+  ],
+  "samples": [
+    {
+      "id": "obstruction",
+      "title": "Track obstruction",
+      "subtitle": "Pravaas \u00b7 reference sample",
+      "mode": "obstacles",
+      "path": "samples/obstruction.jpg",
+      "source": "Original project \u00b7 demonstration",
+      "source_file": "images/00f734d2-rail_3.jpeg",
+      "source_url": "https://github.com/KirtirajChaudhari/Pravaas",
+      "sha256": "412aac891ac9cd06648987ae68b82b6d43a09da8b3a8b38529fb6a4d0339c373"
+    },
+    {
+      "id": "wildlife",
+      "title": "Wildlife on track",
+      "subtitle": "Pravaas \u00b7 reference sample",
+      "mode": "obstacles",
+      "path": "samples/wildlife.jpg",
+      "source": "Original project \u00b7 demonstration",
+      "source_file": "images/0fbbd1b4-rail_20.jpeg",
+      "source_url": "https://github.com/KirtirajChaudhari/Pravaas",
+      "sha256": "cb3be7234854e40d93e6c3254c28894a52262dc8c4809b6d86abfc19450f3b69"
+    },
+    {
+      "id": "rail-joint",
+      "title": "Rail joint detail",
+      "subtitle": "Rail regions \u00b7 reference sample",
+      "mode": "defects",
+      "path": "samples/rail-joint.jpg",
+      "source": "Reference dataset \u00b7 demonstration",
+      "source_file": "Railwaydataset2/images/train/IMG_20201114_100853_jpg.rf.327c7c2c0fd97433f3717db685e4cc89.jpg",
+      "source_url": "https://github.com/pradeepxkumar/Rail-defect-detection",
+      "sha256": "2e5a8a940322e351a1c7ea1e6fdcd2605ee3286cc8545c241ead4170e090d057"
+    },
+    {
+      "id": "fault-sample",
+      "title": "Defective track",
+      "subtitle": "Kaggle \u00b7 source test label",
+      "mode": "classification",
+      "path": "samples/fault-sample.jpg",
+      "source": "Kaggle v2 \u00b7 test sample",
+      "source_file": "Railway Track fault Detection Updated/Test/Defective/IMG_20201114_100159.jpg",
+      "source_url": "https://www.kaggle.com/datasets/salmaneunus/railway-track-fault-detection",
+      "ground_truth": "Defective",
+      "sha256": "754830d9c5e69267597a42be5809940552ef37739bb754bf38762a4ee0dc622b"
+    },
+    {
+      "id": "normal-sample",
+      "title": "Non-defective track",
+      "subtitle": "Kaggle \u00b7 source test label",
+      "mode": "classification",
+      "path": "samples/normal-sample.jpg",
+      "source": "Kaggle v2 \u00b7 test sample",
+      "source_file": "Railway Track fault Detection Updated/Test/Non defective/IMG_20201114_100023.jpg",
+      "source_url": "https://www.kaggle.com/datasets/salmaneunus/railway-track-fault-detection",
+      "ground_truth": "Non-defective",
+      "sha256": "c554eedfd884a022aedc6f3e384ed2b76c26ea817ec4909a6f449bf45f62cc60"
+    }
+  ],
+  "reference_dataset": {
+    "images": 436,
+    "roboflow_named_images": 266
+  },
+  "limitations": [
+    "Research only; human review required",
+    "No independent detector mAP",
+    "Roboflow Universe direct access returned HTTP 403"
+  ]
+}

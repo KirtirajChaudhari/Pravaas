@@ -1,0 +1,319 @@
+{
+  "seed": 42,
+  "input_size": 128,
+  "dataset": {
+    "source": "https://www.kaggle.com/datasets/salmaneunus/railway-track-fault-detection",
+    "version": 2,
+    "archive_sha256": "ed9d61e4ea82e08c51d8e769d8f4c010b81e601aba9077933c78ef485f267f3b",
+    "classes": [
+      "Defective",
+      "Non-defective"
+    ],
+    "split_policy": "Original train/validation/test splits; duplicate priority test > validation > train",
+    "counts": {
+      "test": 22,
+      "val": 62,
+      "train": 296
+    },
+    "duplicates_removed": 3,
+    "limitation": "Exact pixel deduplication does not exclude near-duplicates or shared capture locations."
+  },
+  "models": [
+    {
+      "id": "cnn",
+      "name": "Scratch CNN",
+      "strategy": "All parameters initialized randomly",
+      "epochs": 12,
+      "best_epoch": 12,
+      "parameters": 89314,
+      "trainable_parameters": 89314,
+      "training_seconds": 160.519538647,
+      "test_ms_per_image": 10.66965704544807,
+      "accuracy": 0.7272727272727273,
+      "precision": 0.8571428571428571,
+      "recall": 0.5454545454545454,
+      "f1": 0.6666666666666666,
+      "confusion_matrix": [
+        [
+          6,
+          5
+        ],
+        [
+          1,
+          10
+        ]
+      ],
+      "test_count": 22,
+      "history": [
+        {
+          "epoch": 1,
+          "train_loss": 0.6984648317904085,
+          "train_accuracy": 0.5168918918918919,
+          "val_loss": 0.6895002299739469,
+          "val_accuracy": 0.5
+        },
+        {
+          "epoch": 2,
+          "train_loss": 0.6869687744089075,
+          "train_accuracy": 0.5371621621621622,
+          "val_loss": 0.6567622077080512,
+          "val_accuracy": 0.7903225806451613
+        },
+        {
+          "epoch": 3,
+          "train_loss": 0.6707862889444506,
+          "train_accuracy": 0.6047297297297297,
+          "val_loss": 0.6342285563868861,
+          "val_accuracy": 0.6129032258064516
+        },
+        {
+          "epoch": 4,
+          "train_loss": 0.6256075952504132,
+          "train_accuracy": 0.6351351351351351,
+          "val_loss": 0.7145145170150264,
+          "val_accuracy": 0.5806451612903226
+        },
+        {
+          "epoch": 5,
+          "train_loss": 0.6266297875223933,
+          "train_accuracy": 0.6722972972972973,
+          "val_loss": 0.5486500993851693,
+          "val_accuracy": 0.7096774193548387
+        },
+        {
+          "epoch": 6,
+          "train_loss": 0.5930833462122325,
+          "train_accuracy": 0.6756756756756757,
+          "val_loss": 0.5704429457264562,
+          "val_accuracy": 0.7096774193548387
+        },
+        {
+          "epoch": 7,
+          "train_loss": 0.5715769400467744,
+          "train_accuracy": 0.7331081081081081,
+          "val_loss": 0.5579325922073857,
+          "val_accuracy": 0.6935483870967742
+        },
+        {
+          "epoch": 8,
+          "train_loss": 0.5444723947628124,
+          "train_accuracy": 0.7331081081081081,
+          "val_loss": 0.6117421580899146,
+          "val_accuracy": 0.6774193548387096
+        },
+        {
+          "epoch": 9,
+          "train_loss": 0.5775666325478941,
+          "train_accuracy": 0.7162162162162162,
+          "val_loss": 0.49001512508238515,
+          "val_accuracy": 0.8064516129032258
+        },
+        {
+          "epoch": 10,
+          "train_loss": 0.5405721471116349,
+          "train_accuracy": 0.7331081081081081,
+          "val_loss": 0.541592703711602,
+          "val_accuracy": 0.6935483870967742
+        },
+        {
+          "epoch": 11,
+          "train_loss": 0.5409062343674738,
+          "train_accuracy": 0.7567567567567568,
+          "val_loss": 0.563410839726848,
+          "val_accuracy": 0.7096774193548387
+        },
+        {
+          "epoch": 12,
+          "train_loss": 0.5476170150009362,
+          "train_accuracy": 0.7027027027027027,
+          "val_loss": 0.47606715848368986,
+          "val_accuracy": 0.8064516129032258
+        }
+      ],
+      "path": "models/cnn.onnx"
+    },
+    {
+      "id": "mobilenet",
+      "name": "MobileNetV3 \u00b7 frozen",
+      "strategy": "ImageNet features frozen; classification head trained",
+      "epochs": 12,
+      "best_epoch": 3,
+      "parameters": 1519906,
+      "trainable_parameters": 592898,
+      "training_seconds": 88.84119152300013,
+      "test_ms_per_image": 31.207360409098328,
+      "accuracy": 0.7272727272727273,
+      "precision": 0.7777777777777778,
+      "recall": 0.6363636363636364,
+      "f1": 0.7,
+      "confusion_matrix": [
+        [
+          7,
+          4
+        ],
+        [
+          2,
+          9
+        ]
+      ],
+      "test_count": 22,
+      "history": [
+        {
+          "epoch": 1,
+          "train_loss": 0.5951610948588397,
+          "train_accuracy": 0.6722972972972973,
+          "val_loss": 0.35693470316548503,
+          "val_accuracy": 0.8870967741935484
+        },
+        {
+          "epoch": 2,
+          "train_loss": 0.3787077149829349,
+          "train_accuracy": 0.8412162162162162,
+          "val_loss": 0.3392041109261974,
+          "val_accuracy": 0.8387096774193549
+        },
+        {
+          "epoch": 3,
+          "train_loss": 0.2872745338323954,
+          "train_accuracy": 0.8885135135135135,
+          "val_loss": 0.30247620709480777,
+          "val_accuracy": 0.8709677419354839
+        },
+        {
+          "epoch": 4,
+          "train_loss": 0.23409344618384903,
+          "train_accuracy": 0.9256756756756757,
+          "val_loss": 0.3510166214358422,
+          "val_accuracy": 0.8387096774193549
+        },
+        {
+          "epoch": 5,
+          "train_loss": 0.2216232568025589,
+          "train_accuracy": 0.918918918918919,
+          "val_loss": 0.37271174307792415,
+          "val_accuracy": 0.8387096774193549
+        },
+        {
+          "epoch": 6,
+          "train_loss": 0.1733572785113309,
+          "train_accuracy": 0.9391891891891891,
+          "val_loss": 0.32221509708512214,
+          "val_accuracy": 0.8709677419354839
+        },
+        {
+          "epoch": 7,
+          "train_loss": 0.12623306061770465,
+          "train_accuracy": 0.956081081081081,
+          "val_loss": 0.3120909458206546,
+          "val_accuracy": 0.8870967741935484
+        },
+        {
+          "epoch": 8,
+          "train_loss": 0.111953639702217,
+          "train_accuracy": 0.9662162162162162,
+          "val_loss": 0.3361778893778401,
+          "val_accuracy": 0.8709677419354839
+        },
+        {
+          "epoch": 9,
+          "train_loss": 0.10220824796203021,
+          "train_accuracy": 0.9797297297297297,
+          "val_loss": 0.35227494470534787,
+          "val_accuracy": 0.8870967741935484
+        },
+        {
+          "epoch": 10,
+          "train_loss": 0.07771299494984182,
+          "train_accuracy": 0.9898648648648649,
+          "val_loss": 0.31143386037118975,
+          "val_accuracy": 0.8870967741935484
+        },
+        {
+          "epoch": 11,
+          "train_loss": 0.058803339161582896,
+          "train_accuracy": 0.9966216216216216,
+          "val_loss": 0.31828380784680765,
+          "val_accuracy": 0.8709677419354839
+        },
+        {
+          "epoch": 12,
+          "train_loss": 0.04380117850126447,
+          "train_accuracy": 0.9932432432432432,
+          "val_loss": 0.31961132730207137,
+          "val_accuracy": 0.8870967741935484
+        }
+      ],
+      "path": "models/mobilenet.onnx"
+    },
+    {
+      "id": "finetuned",
+      "name": "MobileNetV3 \u00b7 fine-tuned",
+      "strategy": "Starts from selected frozen model; last three feature blocks and head trained",
+      "epochs": 5,
+      "best_epoch": 5,
+      "parameters": 1519906,
+      "trainable_parameters": 1237538,
+      "training_seconds": 125.25539637199995,
+      "test_ms_per_image": 313.8385785909102,
+      "accuracy": 0.7272727272727273,
+      "precision": 0.7777777777777778,
+      "recall": 0.6363636363636364,
+      "f1": 0.7,
+      "confusion_matrix": [
+        [
+          7,
+          4
+        ],
+        [
+          2,
+          9
+        ]
+      ],
+      "test_count": 22,
+      "history": [
+        {
+          "epoch": 1,
+          "train_loss": 0.41129040073704076,
+          "train_accuracy": 0.8006756756756757,
+          "val_loss": 0.28960671155683454,
+          "val_accuracy": 0.8709677419354839
+        },
+        {
+          "epoch": 2,
+          "train_loss": 0.3043882411879462,
+          "train_accuracy": 0.8817567567567568,
+          "val_loss": 0.2882904150793629,
+          "val_accuracy": 0.8709677419354839
+        },
+        {
+          "epoch": 3,
+          "train_loss": 0.2095505252883241,
+          "train_accuracy": 0.9493243243243243,
+          "val_loss": 0.28069148332841937,
+          "val_accuracy": 0.8709677419354839
+        },
+        {
+          "epoch": 4,
+          "train_loss": 0.18180090672261007,
+          "train_accuracy": 0.9527027027027027,
+          "val_loss": 0.27007284375929064,
+          "val_accuracy": 0.8709677419354839
+        },
+        {
+          "epoch": 5,
+          "train_loss": 0.1579192490191073,
+          "train_accuracy": 0.9628378378378378,
+          "val_loss": 0.26077097942752225,
+          "val_accuracy": 0.8870967741935484
+        }
+      ],
+      "path": "models/finetuned.onnx"
+    }
+  ],
+  "test_policy": "Checkpoint selected by validation loss. Test used only for final reporting, not checkpoint selection.",
+  "hardware": {
+    "device": "cpu",
+    "threads": 2,
+    "torch": "2.14.1+cpu"
+  }
+}

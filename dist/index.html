@@ -1,0 +1,328 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta
+      name="description"
+      content="Pravaas railway intelligence. Inspect railway imagery with real, private browser inference and explore reproducible machine learning experiments."
+    />
+    <meta name="theme-color" content="#f5f6f8" />
+    <title>Pravaas — Rail Intelligence</title>
+    <link rel="icon" href="favicon.svg" type="image/svg+xml" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <aside class="sidebar">
+      <a class="brand" href="#inspect" aria-label="Pravaas home"
+        ><span class="brand-mark"
+          ><svg viewBox="0 0 32 32" fill="none">
+            <path
+              d="M11 5 5 27M21 5l6 22M9 11h14M7 19h18M6 25h20"
+              stroke="currentColor"
+              stroke-width="2.7"
+            /></svg></span
+        ><span
+          >pravaas<span class="brand-dot">.</span
+          ><small>RAIL INTELLIGENCE</small></span
+        ></a
+      >
+      <div class="workspace-label">WORKSPACE <span>01</span></div>
+      <nav aria-label="Main navigation">
+        <a href="#inspect" class="nav-link active" data-page="inspect"
+          ><span data-icon="scan"></span>Inspection<span class="nav-dot"></span
+        ></a>
+        <a href="#lab" class="nav-link" data-page="lab"
+          ><span data-icon="chart"></span>Model lab</a
+        >
+        <a href="#datasets" class="nav-link" data-page="datasets"
+          ><span data-icon="database"></span>Datasets</a
+        >
+        <a href="#history" class="nav-link" data-page="history"
+          ><span data-icon="history"></span>Inspection history</a
+        >
+      </nav>
+      <div class="sidebar-bottom">
+        <div class="local-badge">
+          <span class="status-dot"></span> Runs on your device
+        </div>
+        <p>Your images stay in your browser.<br />No upload to a server.</p>
+        <a
+          href="https://github.com/KirtirajChaudhari/Pravaas/tree/codex/pravaas-rebuild"
+          target="_blank"
+          rel="noreferrer"
+          class="source-link"
+          ><span data-icon="code"></span> Project source <span>↗</span></a
+        >
+        <div class="profile">
+          <span class="avatar">P</span>
+          <div>Research workspace<small>Academic edition · v1.0</small></div>
+        </div>
+      </div>
+    </aside>
+    <div class="app-shell">
+      <header class="topbar">
+        <div>
+          <span class="breadcrumb">Workspace</span
+          ><span class="crumb-slash">/</span
+          ><span id="breadcrumb">Inspection</span>
+        </div>
+        <div class="topbar-right">
+          <span class="edition">RESEARCH PREVIEW</span
+          ><button
+            class="icon-button"
+            id="help-button"
+            aria-label="About this project"
+          >
+            <span data-icon="help"></span></button
+          ><span class="avatar small">P</span>
+        </div>
+      </header>
+      <main>
+        <section id="page-inspect" class="page">
+          <div class="page-heading">
+            <div>
+              <div class="eyebrow">
+                <span></span> SEE MORE. UNDERSTAND EARLIER.
+              </div>
+              <h1>A clearer view of every rail.</h1>
+              <p>
+                Turn railway imagery into insights you can inspect, compare, and
+                share.
+              </p>
+            </div>
+            <button id="upload-top" class="button secondary">
+              <span data-icon="upload"></span> Upload image
+            </button>
+          </div>
+          <div class="summary-grid">
+            <div class="summary-card">
+              <div class="summary-icon blue" data-icon="scan"></div>
+              <div>
+                <span>Inspection modes</span
+                ><strong
+                  >03 <small>Rails · Obstacles · Classification</small></strong
+                >
+              </div>
+            </div>
+            <div class="summary-card">
+              <div class="summary-icon purple" data-icon="layers"></div>
+              <div>
+                <span>Models in your workspace</span
+                ><strong id="model-count"
+                  >— <small>Real ONNX inference</small></strong
+                >
+              </div>
+            </div>
+            <div class="summary-card">
+              <div class="summary-icon green" data-icon="shield"></div>
+              <div>
+                <span>Private by design</span
+                ><strong class="text-value"
+                  >On-device
+                  <small>Images never leave this browser</small></strong
+                >
+              </div>
+            </div>
+          </div>
+          <div class="section-line">
+            <h2>Inspection studio <span class="tag">LIVE INFERENCE</span></h2>
+            <span class="muted desktop-note"
+              >A closer look, one frame at a time.</span
+            >
+          </div>
+          <div class="studio-grid">
+            <div class="viewer-card">
+              <div class="viewer-toolbar">
+                <div>
+                  <span class="status-dot" id="viewer-dot"></span
+                  ><span id="image-name">Choose an image</span>
+                </div>
+                <div>
+                  <button
+                    id="overlay-button"
+                    class="toolbar-button"
+                    aria-pressed="true"
+                  >
+                    <span data-icon="layers"></span> Overlays</button
+                  ><button
+                    id="expand-button"
+                    class="icon-button"
+                    aria-label="Expand image"
+                  >
+                    <span data-icon="expand"></span>
+                  </button>
+                </div>
+              </div>
+              <div id="drop-zone" class="image-stage">
+                <div class="image-wrap">
+                  <img
+                    id="inspection-image"
+                    alt="Railway image selected for inspection"
+                  /><canvas
+                    id="overlay"
+                    aria-label="Model detection bounding boxes"
+                  ></canvas>
+                </div>
+                <span class="image-badge"
+                  ><span class="status-dot"></span
+                  ><span id="image-state">READY TO INSPECT</span></span
+                >
+                <div class="image-corner top-left"></div>
+                <div class="image-corner bottom-right"></div>
+                <div class="drop-message">
+                  <span data-icon="upload"></span>Drop an image to inspect
+                </div>
+                <div class="scan-line" hidden></div>
+              </div>
+              <div class="viewer-footer">
+                <span
+                  ><span data-icon="image"></span
+                  ><span id="image-dimensions">No image selected</span></span
+                ><span id="sample-source">Research sample</span>
+              </div>
+            </div>
+            <aside class="control-card">
+              <div class="control-title">
+                <h3>Inspection settings</h3>
+                <span data-icon="sliders"></span>
+              </div>
+              <label class="field-label" for="task-select">Detection task</label
+              ><select id="task-select">
+                <option value="defects">Rail localization</option>
+                <option value="obstacles">Track obstacles</option>
+                <option value="classification">
+                  Track classification
+                </option></select
+              ><label class="field-label" for="model-select"
+                >Model <span class="mini-tag">ONNX</span></label
+              ><select id="model-select"></select>
+              <p class="field-hint" id="model-description">
+                Loading model registry…
+              </p>
+              <div class="confidence-header">
+                <label class="field-label" for="confidence"
+                  >Confidence threshold</label
+                ><output id="confidence-value" for="confidence">40%</output>
+              </div>
+              <input
+                type="range"
+                id="confidence"
+                min="10"
+                max="90"
+                value="40"
+                step="5"
+              />
+              <div class="range-labels">
+                <span>More detections</span><span>Higher confidence</span>
+              </div>
+              <button id="run-button" class="button primary" disabled>
+                <span data-icon="play"></span
+                ><span id="run-text">Run inspection</span
+                ><span class="shortcut">↵</span>
+              </button>
+              <div
+                id="inference-status"
+                class="inference-status"
+                role="status"
+                aria-live="polite"
+              >
+                Model loads on first run.
+              </div>
+              <div class="results-block">
+                <div class="result-heading">
+                  <h3>Findings</h3>
+                  <span id="result-count" class="count-badge">—</span>
+                </div>
+                <div id="results">
+                  <div class="empty-result">
+                    <span data-icon="focus"></span
+                    ><strong>Ready when you are</strong>
+                    <p>
+                      Run an inspection to see model findings and confidence
+                      scores.
+                    </p>
+                  </div>
+                </div>
+                <button
+                  id="export-button"
+                  class="button report-button"
+                  disabled
+                >
+                  <span data-icon="download"></span> Export report
+                </button>
+              </div>
+            </aside>
+          </div>
+          <div class="sample-heading">
+            <div>
+              <h3>Explore with a sample</h3>
+              <p>Real railway images from the project’s source datasets.</p>
+            </div>
+            <span class="muted">Or drag your own image into the viewer</span>
+          </div>
+          <div id="sample-grid" class="sample-grid"></div>
+          <div class="research-note">
+            <span data-icon="info"></span>
+            <p>
+              <strong>Built for exploration, with evidence.</strong> Predictions
+              are research outputs and need human review. No detections does not
+              establish that a track is safe.
+              <a href="#lab">Explore model performance <span>↗</span></a>
+            </p>
+          </div>
+        </section>
+        <section id="page-lab" class="page" hidden></section>
+        <section id="page-datasets" class="page" hidden></section>
+        <section id="page-history" class="page" hidden></section>
+        <footer>
+          <span
+            >PRAVAAS <span class="footer-dot">/</span> A better perspective on
+            railway inspection.</span
+          ><span>Built with PyTorch · ONNX Runtime</span>
+        </footer>
+      </main>
+    </div>
+    <input
+      type="file"
+      id="file-input"
+      accept="image/jpeg,image/png,image/webp"
+      hidden
+    />
+    <dialog id="help-dialog">
+      <button class="dialog-close icon-button" aria-label="Close dialog">
+        ✕
+      </button>
+      <div class="eyebrow">PRAVAAS / RESEARCH EDITION</div>
+      <h2>From image to evidence.</h2>
+      <p>
+        Choose a detection task, select a sample or upload a JPG, PNG, or WebP
+        image, then run inspection. Models execute locally using ONNX Runtime
+        Web.
+      </p>
+      <p>
+        Rail localization and track obstacles use inherited YOLO models from the
+        reference projects. The Model lab compares a newly trained CNN, frozen
+        MobileNetV3 features, and fine-tuning on the requested Kaggle dataset.
+      </p>
+      <p>
+        Thresholds filter detector boxes; classification returns two image-level
+        scores. Scores are model confidence, not calibrated safety
+        probabilities.
+      </p>
+      <a class="button primary" href="#lab" id="help-lab"
+        >Explore the model lab →</a
+      >
+    </dialog>
+    <dialog id="image-dialog">
+      <button
+        class="dialog-close icon-button"
+        aria-label="Close expanded image"
+      >
+        ✕</button
+      ><canvas id="expanded-canvas"></canvas>
+    </dialog>
+    <div id="toast" role="status" hidden></div>
+    <script type="module" src="app.js"></script>
+  </body>
+</html>
