@@ -1,0 +1,2679 @@
+{
+  "source": "https://www.kaggle.com/datasets/salmaneunus/railway-track-fault-detection",
+  "version": 2,
+  "archive_sha256": "ed9d61e4ea82e08c51d8e769d8f4c010b81e601aba9077933c78ef485f267f3b",
+  "classes": [
+    "Defective",
+    "Non-defective"
+  ],
+  "split_policy": "Original train/validation/test splits; duplicate priority test > validation > train",
+  "counts": {
+    "test": 22,
+    "val": 62,
+    "train": 296
+  },
+  "duplicates_removed": 3,
+  "limitation": "Exact pixel deduplication does not exclude near-duplicates or shared capture locations.",
+  "records": [
+    {
+      "file": "5df30750b9382eb551ee19bb60078057f981dbb8292d8f7c093a971426615ca6.png",
+      "sha256_pixels": "5df30750b9382eb551ee19bb60078057f981dbb8292d8f7c093a971426615ca6",
+      "source": "Railway Track fault Detection Updated/Test/Defective/IMG_20201114_100159.jpg",
+      "label": 0,
+      "split": "test"
+    },
+    {
+      "file": "75dab0e78a4d866062dafa9879b207a14e556f069dcf0741e1474fbd3645682a.png",
+      "sha256_pixels": "75dab0e78a4d866062dafa9879b207a14e556f069dcf0741e1474fbd3645682a",
+      "source": "Railway Track fault Detection Updated/Test/Defective/IMG_20201114_100209.jpg",
+      "label": 0,
+      "split": "test"
+    },
+    {
+      "file": "0663e45bda965b8bb94a2620d0bcffb267bc39498dd93ab7e92e9e4d7e5d965d.png",
+      "sha256_pixels": "0663e45bda965b8bb94a2620d0bcffb267bc39498dd93ab7e92e9e4d7e5d965d",
+      "source": "Railway Track fault Detection Updated/Test/Defective/IMG_20201114_101124.jpg",
+      "label": 0,
+      "split": "test"
+    },
+    {
+      "file": "c24f0aec4d4b3bd3ae77cd109fbdc7836c1ee1f40e821804f263c632fe732902.png",
+      "sha256_pixels": "c24f0aec4d4b3bd3ae77cd109fbdc7836c1ee1f40e821804f263c632fe732902",
+      "source": "Railway Track fault Detection Updated/Test/Defective/IMG_20201114_101200.jpg",
+      "label": 0,
+      "split": "test"
+    },
+    {
+      "file": "a1ad51f502fc12ae5d7ed522e7c95b3013b325a1f62ed22bd77c1caf80ba0f00.png",
+      "sha256_pixels": "a1ad51f502fc12ae5d7ed522e7c95b3013b325a1f62ed22bd77c1caf80ba0f00",
+      "source": "Railway Track fault Detection Updated/Test/Defective/IMG_20201114_102203.jpg",
+      "label": 0,
+      "split": "test"
+    },
+    {
+      "file": "3dbcb0191ebc2064a790306042308affbf8a5e9cfe08b42bbf38b8a7cfc4c006.png",
+      "sha256_pixels": "3dbcb0191ebc2064a790306042308affbf8a5e9cfe08b42bbf38b8a7cfc4c006",
+      "source": "Railway Track fault Detection Updated/Test/Defective/IMG_20201114_102222.jpg",
+      "label": 0,
+      "split": "test"
+    },
+    {
+      "file": "a54cfb31ce13cfb33f1c88a56f441173168ef4def0371cd4fb3f70ca3597b8ce.png",
+      "sha256_pixels": "a54cfb31ce13cfb33f1c88a56f441173168ef4def0371cd4fb3f70ca3597b8ce",
+      "source": "Railway Track fault Detection Updated/Test/Defective/IMG_20201114_102819.jpg",
+      "label": 0,
+      "split": "test"
+    },
+    {
+      "file": "e8fb1c0872b2c09e31a8d7aa2626570e4fa2b3776a5ed7763c46fa271ddac033.png",
+      "sha256_pixels": "e8fb1c0872b2c09e31a8d7aa2626570e4fa2b3776a5ed7763c46fa271ddac033",
+      "source": "Railway Track fault Detection Updated/Test/Defective/IMG_20201114_103110.jpg",
+      "label": 0,
+      "split": "test"
+    },
+    {
+      "file": "07dd5726f4cb5b0ccc1e8655dabd587596155ec951fbad029e87b7c32b0fec57.png",
+      "sha256_pixels": "07dd5726f4cb5b0ccc1e8655dabd587596155ec951fbad029e87b7c32b0fec57",
+      "source": "Railway Track fault Detection Updated/Test/Defective/IMG_20201211_121712.jpg",
+      "label": 0,
+      "split": "test"
+    },
+    {
+      "file": "6a943730c1876074cb62f9e800a34989fb0cda3c40ccf0cbd462413db118d009.png",
+      "sha256_pixels": "6a943730c1876074cb62f9e800a34989fb0cda3c40ccf0cbd462413db118d009",
+      "source": "Railway Track fault Detection Updated/Test/Defective/IMG_20201211_121712_1.jpg",
+      "label": 0,
+      "split": "test"
+    },
+    {
+      "file": "2277fc0acfdd96a010908af106aa178b172cef869a4ac709378a3a26580f20c8.png",
+      "sha256_pixels": "2277fc0acfdd96a010908af106aa178b172cef869a4ac709378a3a26580f20c8",
+      "source": "Railway Track fault Detection Updated/Test/Defective/IMG_20201211_121713.jpg",
+      "label": 0,
+      "split": "test"
+    },
+    {
+      "file": "f6bc81448b312ab384c937e326ad817b881866e9c4f527dddd0014d7e78bbe09.png",
+      "sha256_pixels": "f6bc81448b312ab384c937e326ad817b881866e9c4f527dddd0014d7e78bbe09",
+      "source": "Railway Track fault Detection Updated/Test/Non defective/IMG_20201114_100023.jpg",
+      "label": 1,
+      "split": "test"
+    },
+    {
+      "file": "4a6e7f0869ce139a21f7af6e666cfcc0f3189c43c8f0d65866521333b545a5dd.png",
+      "sha256_pixels": "4a6e7f0869ce139a21f7af6e666cfcc0f3189c43c8f0d65866521333b545a5dd",
+      "source": "Railway Track fault Detection Updated/Test/Non defective/IMG_20201114_100344.jpg",
+      "label": 1,
+      "split": "test"
+    },
+    {
+      "file": "266642b5b9e880637f18129d2daa58a421caaf65a323a7b5d428a75a24860626.png",
+      "sha256_pixels": "266642b5b9e880637f18129d2daa58a421caaf65a323a7b5d428a75a24860626",
+      "source": "Railway Track fault Detection Updated/Test/Non defective/IMG_20201114_100358.jpg",
+      "label": 1,
+      "split": "test"
+    },
+    {
+      "file": "db712eff497b7f4e5ded14b546df3c471808b4debd852928479f47d4860a83db.png",
+      "sha256_pixels": "db712eff497b7f4e5ded14b546df3c471808b4debd852928479f47d4860a83db",
+      "source": "Railway Track fault Detection Updated/Test/Non defective/IMG_20201114_101633.jpg",
+      "label": 1,
+      "split": "test"
+    },
+    {
+      "file": "26a687c6ebb15a6f052bca0e800aa9a61a6034afaef8d27173afbb266231d85b.png",
+      "sha256_pixels": "26a687c6ebb15a6f052bca0e800aa9a61a6034afaef8d27173afbb266231d85b",
+      "source": "Railway Track fault Detection Updated/Test/Non defective/IMG_20201114_101756.jpg",
+      "label": 1,
+      "split": "test"
+    },
+    {
+      "file": "5e3d82250b940b3a629d19357422e1d257a50b97f894b66a79d85d95ba87c824.png",
+      "sha256_pixels": "5e3d82250b940b3a629d19357422e1d257a50b97f894b66a79d85d95ba87c824",
+      "source": "Railway Track fault Detection Updated/Test/Non defective/IMG_20201114_101907.jpg",
+      "label": 1,
+      "split": "test"
+    },
+    {
+      "file": "5e11bbf1bae29e35bd8f54bde01899e287049e8a707caa44dd1d311dfcbd3de4.png",
+      "sha256_pixels": "5e11bbf1bae29e35bd8f54bde01899e287049e8a707caa44dd1d311dfcbd3de4",
+      "source": "Railway Track fault Detection Updated/Test/Non defective/IMG_20201114_102253.jpg",
+      "label": 1,
+      "split": "test"
+    },
+    {
+      "file": "2cc2265d3bd976730006e35450f6bc37fbc4b68b65c08d0dd21fe1914931d436.png",
+      "sha256_pixels": "2cc2265d3bd976730006e35450f6bc37fbc4b68b65c08d0dd21fe1914931d436",
+      "source": "Railway Track fault Detection Updated/Test/Non defective/IMG_20201114_102431.jpg",
+      "label": 1,
+      "split": "test"
+    },
+    {
+      "file": "f0db21328e62b8f1c394e851296349326c6bce262546f4a67d252089e2a8d18f.png",
+      "sha256_pixels": "f0db21328e62b8f1c394e851296349326c6bce262546f4a67d252089e2a8d18f",
+      "source": "Railway Track fault Detection Updated/Test/Non defective/IMG_20201114_102710.jpg",
+      "label": 1,
+      "split": "test"
+    },
+    {
+      "file": "8df3ead12a0d2e8ed0570b5adbd1abb47afc1aded1da89e2ac3b202269e779d2.png",
+      "sha256_pixels": "8df3ead12a0d2e8ed0570b5adbd1abb47afc1aded1da89e2ac3b202269e779d2",
+      "source": "Railway Track fault Detection Updated/Test/Non defective/IMG_20201114_102909.jpg",
+      "label": 1,
+      "split": "test"
+    },
+    {
+      "file": "15035eb9ebbe1fe10c8922528d707dfc000efc159848897d530a96dc1ec0c8a1.png",
+      "sha256_pixels": "15035eb9ebbe1fe10c8922528d707dfc000efc159848897d530a96dc1ec0c8a1",
+      "source": "Railway Track fault Detection Updated/Test/Non defective/IMG_20201114_102945.jpg",
+      "label": 1,
+      "split": "test"
+    },
+    {
+      "file": "6286344e8f127441567a99cf1e30da2163185ef23a6f835712f91506837e56fd.png",
+      "sha256_pixels": "6286344e8f127441567a99cf1e30da2163185ef23a6f835712f91506837e56fd",
+      "source": "Railway Track fault Detection Updated/Validation/Defective/IMG_20201114_102122.jpg",
+      "label": 0,
+      "split": "val"
+    },
+    {
+      "file": "2b61aa55f2f04d37733d670a9308e5ff3de6ba9bbb63a635041af55e6ccaa7ab.png",
+      "sha256_pixels": "2b61aa55f2f04d37733d670a9308e5ff3de6ba9bbb63a635041af55e6ccaa7ab",
+      "source": "Railway Track fault Detection Updated/Validation/Defective/IMG_20201114_102159.jpg",
+      "label": 0,
+      "split": "val"
+    },
+    {
+      "file": "4d8959572afa6e6e5e3fe750ed4707aec81bc379389a8cf8175274e6e8d6085a.png",
+      "sha256_pixels": "4d8959572afa6e6e5e3fe750ed4707aec81bc379389a8cf8175274e6e8d6085a",
+      "source": "Railway Track fault Detection Updated/Validation/Defective/IMG_20201114_102211.jpg",
+      "label": 0,
+      "split": "val"
+    },
+    {
+      "file": "e5fdd0d02c17bea0ca5a4db12e993199887377c3867e197d16c2af3b53a47b1b.png",
+      "sha256_pixels": "e5fdd0d02c17bea0ca5a4db12e993199887377c3867e197d16c2af3b53a47b1b",
+      "source": "Railway Track fault Detection Updated/Validation/Defective/IMG_20201114_102334.jpg",
+      "label": 0,
+      "split": "val"
+    },
+    {
+      "file": "f8017431687148c6b094d1b56a7ca47e4c3ed2c722bcfd4ea49a6999a6f44a4c.png",
+      "sha256_pixels": "f8017431687148c6b094d1b56a7ca47e4c3ed2c722bcfd4ea49a6999a6f44a4c",
+      "source": "Railway Track fault Detection Updated/Validation/Defective/IMG_20201114_102344.jpg",
+      "label": 0,
+      "split": "val"
+    },
+    {
+      "file": "35718888bcf4cdbf7523c6dd6b39c705dcde25770fdcde66650345f55d47edb6.png",
+      "sha256_pixels": "35718888bcf4cdbf7523c6dd6b39c705dcde25770fdcde66650345f55d47edb6",
+      "source": "Railway Track fault Detection Updated/Validation/Defective/IMG_20201114_102417.jpg",
+      "label": 0,
+      "split": "val"
+    },
+    {
+      "file": "fd0d9149e91ea286b77a4c342bf815ea4c2697c81b7076422be18db17bf81b26.png",
+      "sha256_pixels": "fd0d9149e91ea286b77a4c342bf815ea4c2697c81b7076422be18db17bf81b26",
+      "source": "Railway Track fault Detection Updated/Validation/Defective/IMG_20201114_102736.jpg",
+      "label": 0,
+      "split": "val"
+    },
+    {
+      "file": "0dad21a2a02a5c50709b28a03b226a7ac165ea9f15670544800e060824e00cfe.png",
+      "sha256_pixels": "0dad21a2a02a5c50709b28a03b226a7ac165ea9f15670544800e060824e00cfe",
+      "source": "Railway Track fault Detection Updated/Validation/Defective/IMG_20201114_102818.jpg",
+      "label": 0,
+      "split": "val"
+    },
+    {
+      "file": "4fff94076d91b66e07fbb385e2ad27448776f1131460d77b0474d75f560f8eb0.png",
+      "sha256_pixels": "4fff94076d91b66e07fbb385e2ad27448776f1131460d77b0474d75f560f8eb0",
+      "source": "Railway Track fault Detection Updated/Validation/Defective/IMG_20201114_102932.jpg",
+      "label": 0,
+      "split": "val"
+    },
+    {
+      "file": "9abfb5f8454ac6a78015983e6442af180051fb7f2713cc03de8c62b39f2943a6.png",
+      "sha256_pixels": "9abfb5f8454ac6a78015983e6442af180051fb7f2713cc03de8c62b39f2943a6",
+      "source": "Railway Track fault Detection Updated/Validation/Defective/IMG_20201114_102942.jpg",
+      "label": 0,
+      "split": "val"
+    },
+    {
+      "file": "57f7401cbafaf0b4c7d0859eea7974f2caf12017c821866617afc9992e7ed65d.png",
+      "sha256_pixels": "57f7401cbafaf0b4c7d0859eea7974f2caf12017c821866617afc9992e7ed65d",
+      "source": "Railway Track fault Detection Updated/Validation/Defective/IMG_20201114_103106.jpg",
+      "label": 0,
+      "split": "val"
+    },
+    {
+      "file": "e6d16eb593cb732d9e74490bb2e008459970ba1586cd6b930592e7f84de0c543.png",
+      "sha256_pixels": "e6d16eb593cb732d9e74490bb2e008459970ba1586cd6b930592e7f84de0c543",
+      "source": "Railway Track fault Detection Updated/Validation/Defective/IMG_20201211_121218.jpg",
+      "label": 0,
+      "split": "val"
+    },
+    {
+      "file": "b415da6e74bfd23a9be4402405c6dda48fff5a48cc91dc409866b7a08472bbdf.png",
+      "sha256_pixels": "b415da6e74bfd23a9be4402405c6dda48fff5a48cc91dc409866b7a08472bbdf",
+      "source": "Railway Track fault Detection Updated/Validation/Defective/IMG_20201211_121249.jpg",
+      "label": 0,
+      "split": "val"
+    },
+    {
+      "file": "0a66cd96395ef2592fb39805d76db82cf78a6d2906774fb1efcd50e7d6bb370e.png",
+      "sha256_pixels": "0a66cd96395ef2592fb39805d76db82cf78a6d2906774fb1efcd50e7d6bb370e",
+      "source": "Railway Track fault Detection Updated/Validation/Defective/IMG_20201211_121324.jpg",
+      "label": 0,
+      "split": "val"
+    },
+    {
+      "file": "5ccd9fc84f2b39defbad2f8964ea21f6af2cac85c222044910e213eb68805bca.png",
+      "sha256_pixels": "5ccd9fc84f2b39defbad2f8964ea21f6af2cac85c222044910e213eb68805bca",
+      "source": "Railway Track fault Detection Updated/Validation/Defective/IMG_20201211_121327.jpg",
+      "label": 0,
+      "split": "val"
+    },
+    {
+      "file": "433f7d59db902d22409fa1510af385d161938c02deca04e540ab50b2caee87c4.png",
+      "sha256_pixels": "433f7d59db902d22409fa1510af385d161938c02deca04e540ab50b2caee87c4",
+      "source": "Railway Track fault Detection Updated/Validation/Defective/IMG_20201211_121328.jpg",
+      "label": 0,
+      "split": "val"
+    },
+    {
+      "file": "efb4694bd2275453767c615c9b75a79a7c648a4f34b45ab929f63600596b4f3f.png",
+      "sha256_pixels": "efb4694bd2275453767c615c9b75a79a7c648a4f34b45ab929f63600596b4f3f",
+      "source": "Railway Track fault Detection Updated/Validation/Defective/IMG_20201211_121329.jpg",
+      "label": 0,
+      "split": "val"
+    },
+    {
+      "file": "dfa973482ef4ac4c8bf092b9416299af76c6ab55319793e43c60e5e5043836a0.png",
+      "sha256_pixels": "dfa973482ef4ac4c8bf092b9416299af76c6ab55319793e43c60e5e5043836a0",
+      "source": "Railway Track fault Detection Updated/Validation/Defective/IMG_20201211_121346.jpg",
+      "label": 0,
+      "split": "val"
+    },
+    {
+      "file": "a6e9e3a1cdb638f674a4110bb46324ef1a868a8247d6dca762bfba2d2d8d8356.png",
+      "sha256_pixels": "a6e9e3a1cdb638f674a4110bb46324ef1a868a8247d6dca762bfba2d2d8d8356",
+      "source": "Railway Track fault Detection Updated/Validation/Defective/IMG_20201211_121349.jpg",
+      "label": 0,
+      "split": "val"
+    },
+    {
+      "file": "ac7598f6a5b1a8279326b377aa262a7f00f2236d5c370e58f1ff9b2459d23596.png",
+      "sha256_pixels": "ac7598f6a5b1a8279326b377aa262a7f00f2236d5c370e58f1ff9b2459d23596",
+      "source": "Railway Track fault Detection Updated/Validation/Defective/IMG_20201211_121358.jpg",
+      "label": 0,
+      "split": "val"
+    },
+    {
+      "file": "bdcd98853ea3d5e2aa85d409b3ff2cc62bf94291e8cb7faf9352815f5f91041f.png",
+      "sha256_pixels": "bdcd98853ea3d5e2aa85d409b3ff2cc62bf94291e8cb7faf9352815f5f91041f",
+      "source": "Railway Track fault Detection Updated/Validation/Defective/IMG_20201211_121358_1.jpg",
+      "label": 0,
+      "split": "val"
+    },
+    {
+      "file": "6453f0a1e15f9cdcd6431a195a8e508d98024ea27315d4638cb880883ae9c5c6.png",
+      "sha256_pixels": "6453f0a1e15f9cdcd6431a195a8e508d98024ea27315d4638cb880883ae9c5c6",
+      "source": "Railway Track fault Detection Updated/Validation/Defective/IMG_20201211_121524.jpg",
+      "label": 0,
+      "split": "val"
+    },
+    {
+      "file": "bd3bcd1ededfe8d29cda373e2238ff2fc53799bae8c94e78664bfd75b3afd158.png",
+      "sha256_pixels": "bd3bcd1ededfe8d29cda373e2238ff2fc53799bae8c94e78664bfd75b3afd158",
+      "source": "Railway Track fault Detection Updated/Validation/Defective/IMG_20201211_121528.jpg",
+      "label": 0,
+      "split": "val"
+    },
+    {
+      "file": "0caa9255a531beb90e955c0d21ea9e1acf840dd035d15791affadcf87de94ab3.png",
+      "sha256_pixels": "0caa9255a531beb90e955c0d21ea9e1acf840dd035d15791affadcf87de94ab3",
+      "source": "Railway Track fault Detection Updated/Validation/Defective/IMG_20201211_121538.jpg",
+      "label": 0,
+      "split": "val"
+    },
+    {
+      "file": "e77a453c7061416053b420db3ed264fc1c8d1f31de4ed4d1e8996e076b276d37.png",
+      "sha256_pixels": "e77a453c7061416053b420db3ed264fc1c8d1f31de4ed4d1e8996e076b276d37",
+      "source": "Railway Track fault Detection Updated/Validation/Defective/IMG_20201211_121540.jpg",
+      "label": 0,
+      "split": "val"
+    },
+    {
+      "file": "5345e77d75261632ea7a05c863fc782d3bcbd0f82b671ac8f6cd817f3384dcc6.png",
+      "sha256_pixels": "5345e77d75261632ea7a05c863fc782d3bcbd0f82b671ac8f6cd817f3384dcc6",
+      "source": "Railway Track fault Detection Updated/Validation/Defective/IMG_20201211_121541.jpg",
+      "label": 0,
+      "split": "val"
+    },
+    {
+      "file": "00b92823b1a0457ef763e70e524a55769fb61b491a5ac71f94dd5c3b498592d9.png",
+      "sha256_pixels": "00b92823b1a0457ef763e70e524a55769fb61b491a5ac71f94dd5c3b498592d9",
+      "source": "Railway Track fault Detection Updated/Validation/Defective/IMG_20201211_121542.jpg",
+      "label": 0,
+      "split": "val"
+    },
+    {
+      "file": "57b6253a226193821b8c53133a8f05b25443b9b2cbe25824e5f1d45f7eee45a1.png",
+      "sha256_pixels": "57b6253a226193821b8c53133a8f05b25443b9b2cbe25824e5f1d45f7eee45a1",
+      "source": "Railway Track fault Detection Updated/Validation/Defective/IMG_20201211_121655.jpg",
+      "label": 0,
+      "split": "val"
+    },
+    {
+      "file": "ace6d55794f3269a318678f3d3e356115368431d9d01662495bf5ab77b501f03.png",
+      "sha256_pixels": "ace6d55794f3269a318678f3d3e356115368431d9d01662495bf5ab77b501f03",
+      "source": "Railway Track fault Detection Updated/Validation/Defective/IMG_20201211_121657.jpg",
+      "label": 0,
+      "split": "val"
+    },
+    {
+      "file": "f1078f929ee94247f0c2af3f74282703f6cab3c6b0cd96bd3fda435dbb429a3d.png",
+      "sha256_pixels": "f1078f929ee94247f0c2af3f74282703f6cab3c6b0cd96bd3fda435dbb429a3d",
+      "source": "Railway Track fault Detection Updated/Validation/Defective/IMG_20201211_121703.jpg",
+      "label": 0,
+      "split": "val"
+    },
+    {
+      "file": "c92d6b02ecff0e5c83866383f2a971117ed1a58fb5cfbdd857fadf00b19d40a0.png",
+      "sha256_pixels": "c92d6b02ecff0e5c83866383f2a971117ed1a58fb5cfbdd857fadf00b19d40a0",
+      "source": "Railway Track fault Detection Updated/Validation/Defective/IMG_20201211_121709.jpg",
+      "label": 0,
+      "split": "val"
+    },
+    {
+      "file": "a65452c43f6c6df65160afee097003bb0369a15ee18c97821452aaf900fd5562.png",
+      "sha256_pixels": "a65452c43f6c6df65160afee097003bb0369a15ee18c97821452aaf900fd5562",
+      "source": "Railway Track fault Detection Updated/Validation/Non defective/IMG_20201114_100431.jpg",
+      "label": 1,
+      "split": "val"
+    },
+    {
+      "file": "3b792a7914b427ed72687f2ad5085e111c5f3ed55e4f566bc80233415fa7a42c.png",
+      "sha256_pixels": "3b792a7914b427ed72687f2ad5085e111c5f3ed55e4f566bc80233415fa7a42c",
+      "source": "Railway Track fault Detection Updated/Validation/Non defective/IMG_20201114_100450.jpg",
+      "label": 1,
+      "split": "val"
+    },
+    {
+      "file": "f3e92aad18e0013cffee638275b9a15e76a2e6848b20717f29c27457ae0b8f53.png",
+      "sha256_pixels": "f3e92aad18e0013cffee638275b9a15e76a2e6848b20717f29c27457ae0b8f53",
+      "source": "Railway Track fault Detection Updated/Validation/Non defective/IMG_20201114_100452.jpg",
+      "label": 1,
+      "split": "val"
+    },
+    {
+      "file": "d8f66bab8e08a9d3ad2bff6740e6912f4396dc6aae6ad1c84302059abca0c748.png",
+      "sha256_pixels": "d8f66bab8e08a9d3ad2bff6740e6912f4396dc6aae6ad1c84302059abca0c748",
+      "source": "Railway Track fault Detection Updated/Validation/Non defective/IMG_20201114_100546.jpg",
+      "label": 1,
+      "split": "val"
+    },
+    {
+      "file": "626d5e3266aa6119f9fc1c7afd268d7380bae84163f45a3ab6b518c550064cd5.png",
+      "sha256_pixels": "626d5e3266aa6119f9fc1c7afd268d7380bae84163f45a3ab6b518c550064cd5",
+      "source": "Railway Track fault Detection Updated/Validation/Non defective/IMG_20201114_100552.jpg",
+      "label": 1,
+      "split": "val"
+    },
+    {
+      "file": "12382d620d4fb74c7e01b1be4675deecc103ea306c03045e9816157c1613a644.png",
+      "sha256_pixels": "12382d620d4fb74c7e01b1be4675deecc103ea306c03045e9816157c1613a644",
+      "source": "Railway Track fault Detection Updated/Validation/Non defective/IMG_20201114_100758.jpg",
+      "label": 1,
+      "split": "val"
+    },
+    {
+      "file": "48f7fdfeaf0fdd929fda29aa1c7da65e9024e618fa49eb98dfbadb527e2eb50a.png",
+      "sha256_pixels": "48f7fdfeaf0fdd929fda29aa1c7da65e9024e618fa49eb98dfbadb527e2eb50a",
+      "source": "Railway Track fault Detection Updated/Validation/Non defective/IMG_20201114_100806.jpg",
+      "label": 1,
+      "split": "val"
+    },
+    {
+      "file": "86d70b2b1358169240184a2e6ab0cd087b59865095284ea8158e0922f845c410.png",
+      "sha256_pixels": "86d70b2b1358169240184a2e6ab0cd087b59865095284ea8158e0922f845c410",
+      "source": "Railway Track fault Detection Updated/Validation/Non defective/IMG_20201114_100844.jpg",
+      "label": 1,
+      "split": "val"
+    },
+    {
+      "file": "1dab30139c2bcf1ed68558f502f525063e405bc3bdbef04742768a8552f0a5e3.png",
+      "sha256_pixels": "1dab30139c2bcf1ed68558f502f525063e405bc3bdbef04742768a8552f0a5e3",
+      "source": "Railway Track fault Detection Updated/Validation/Non defective/IMG_20201114_100859.jpg",
+      "label": 1,
+      "split": "val"
+    },
+    {
+      "file": "0e046d1d67d87bf62ca90bc440cff71a8b3328fb52366c1ba132af6ac567acc8.png",
+      "sha256_pixels": "0e046d1d67d87bf62ca90bc440cff71a8b3328fb52366c1ba132af6ac567acc8",
+      "source": "Railway Track fault Detection Updated/Validation/Non defective/IMG_20201114_100901.jpg",
+      "label": 1,
+      "split": "val"
+    },
+    {
+      "file": "202555b09995797640ac9c44a8e6defddee71c72a0ae9ed850b5cbee86f930e8.png",
+      "sha256_pixels": "202555b09995797640ac9c44a8e6defddee71c72a0ae9ed850b5cbee86f930e8",
+      "source": "Railway Track fault Detection Updated/Validation/Non defective/IMG_20201114_100917.jpg",
+      "label": 1,
+      "split": "val"
+    },
+    {
+      "file": "78766185429c9bb00776c728ec56d47c56a321d0ab45f4254d2f67ba2ae8081f.png",
+      "sha256_pixels": "78766185429c9bb00776c728ec56d47c56a321d0ab45f4254d2f67ba2ae8081f",
+      "source": "Railway Track fault Detection Updated/Validation/Non defective/IMG_20201114_100923.jpg",
+      "label": 1,
+      "split": "val"
+    },
+    {
+      "file": "d2ccc6593f259da5b1c746049422481e0ba059c7e50ae73822656a83a0a231e3.png",
+      "sha256_pixels": "d2ccc6593f259da5b1c746049422481e0ba059c7e50ae73822656a83a0a231e3",
+      "source": "Railway Track fault Detection Updated/Validation/Non defective/IMG_20201114_100924.jpg",
+      "label": 1,
+      "split": "val"
+    },
+    {
+      "file": "bee9d8b079a358cad92936189d8ddfcae450ce61ff9791d333dc9b7a9ec3469e.png",
+      "sha256_pixels": "bee9d8b079a358cad92936189d8ddfcae450ce61ff9791d333dc9b7a9ec3469e",
+      "source": "Railway Track fault Detection Updated/Validation/Non defective/IMG_20201114_100930.jpg",
+      "label": 1,
+      "split": "val"
+    },
+    {
+      "file": "a2878d383ca9e038b9e720939e511f0ec92fcd5422848550260133740589da3e.png",
+      "sha256_pixels": "a2878d383ca9e038b9e720939e511f0ec92fcd5422848550260133740589da3e",
+      "source": "Railway Track fault Detection Updated/Validation/Non defective/IMG_20201114_101021.jpg",
+      "label": 1,
+      "split": "val"
+    },
+    {
+      "file": "445081501ba48d92856c6ca07bdceb1080bfb3397c4d8f179da04826650a76cb.png",
+      "sha256_pixels": "445081501ba48d92856c6ca07bdceb1080bfb3397c4d8f179da04826650a76cb",
+      "source": "Railway Track fault Detection Updated/Validation/Non defective/IMG_20201114_101035.jpg",
+      "label": 1,
+      "split": "val"
+    },
+    {
+      "file": "ed8ed4c34d3c005e94604b205cfebfe084838fdc8fa74915ef34338b7ee80e83.png",
+      "sha256_pixels": "ed8ed4c34d3c005e94604b205cfebfe084838fdc8fa74915ef34338b7ee80e83",
+      "source": "Railway Track fault Detection Updated/Validation/Non defective/IMG_20201114_101509.jpg",
+      "label": 1,
+      "split": "val"
+    },
+    {
+      "file": "dbde2179d311ff29adb9b13cb524d58b25b9c478e60b0333f1d7ee30df57a45e.png",
+      "sha256_pixels": "dbde2179d311ff29adb9b13cb524d58b25b9c478e60b0333f1d7ee30df57a45e",
+      "source": "Railway Track fault Detection Updated/Validation/Non defective/IMG_20201114_101522.jpg",
+      "label": 1,
+      "split": "val"
+    },
+    {
+      "file": "63751ea616bd0b128330c34ec11a5062a7f3ed96b71d970eddfbafd533ca17c5.png",
+      "sha256_pixels": "63751ea616bd0b128330c34ec11a5062a7f3ed96b71d970eddfbafd533ca17c5",
+      "source": "Railway Track fault Detection Updated/Validation/Non defective/IMG_20201114_101555.jpg",
+      "label": 1,
+      "split": "val"
+    },
+    {
+      "file": "d75f11161e0a9ab2f2602550424c6803d7bf805dc3914a0145dcc535db311908.png",
+      "sha256_pixels": "d75f11161e0a9ab2f2602550424c6803d7bf805dc3914a0145dcc535db311908",
+      "source": "Railway Track fault Detection Updated/Validation/Non defective/IMG_20201114_101603.jpg",
+      "label": 1,
+      "split": "val"
+    },
+    {
+      "file": "c8252f056e2a4021fb5b6f85a04d0283f2872c708f0edf517cd3572cca3003bc.png",
+      "sha256_pixels": "c8252f056e2a4021fb5b6f85a04d0283f2872c708f0edf517cd3572cca3003bc",
+      "source": "Railway Track fault Detection Updated/Validation/Non defective/IMG_20201114_101617.jpg",
+      "label": 1,
+      "split": "val"
+    },
+    {
+      "file": "ee318585d21005d92e67508dd7dddd1ee878699f072c1511ee0197ddf9900e45.png",
+      "sha256_pixels": "ee318585d21005d92e67508dd7dddd1ee878699f072c1511ee0197ddf9900e45",
+      "source": "Railway Track fault Detection Updated/Validation/Non defective/IMG_20201114_101647.jpg",
+      "label": 1,
+      "split": "val"
+    },
+    {
+      "file": "4d13b5109e5964a0c86d6d886d71cd7ab6645e71addbd8b078860a46b849090f.png",
+      "sha256_pixels": "4d13b5109e5964a0c86d6d886d71cd7ab6645e71addbd8b078860a46b849090f",
+      "source": "Railway Track fault Detection Updated/Validation/Non defective/IMG_20201114_101712.jpg",
+      "label": 1,
+      "split": "val"
+    },
+    {
+      "file": "10ee964850ac0933459c003d1e5b70f7c8fdace96afcf30cea1a1e552548f49d.png",
+      "sha256_pixels": "10ee964850ac0933459c003d1e5b70f7c8fdace96afcf30cea1a1e552548f49d",
+      "source": "Railway Track fault Detection Updated/Validation/Non defective/IMG_20201114_101749.jpg",
+      "label": 1,
+      "split": "val"
+    },
+    {
+      "file": "4b8f51c7036e5933648f013b55a0e43adee5141664b712acb3a44695188f7175.png",
+      "sha256_pixels": "4b8f51c7036e5933648f013b55a0e43adee5141664b712acb3a44695188f7175",
+      "source": "Railway Track fault Detection Updated/Validation/Non defective/IMG_20201114_101805.jpg",
+      "label": 1,
+      "split": "val"
+    },
+    {
+      "file": "6aad72bdc81bd15ad9d9deedbf439208cbfdeefb02365b14527b38d824724b38.png",
+      "sha256_pixels": "6aad72bdc81bd15ad9d9deedbf439208cbfdeefb02365b14527b38d824724b38",
+      "source": "Railway Track fault Detection Updated/Validation/Non defective/IMG_20201114_101817.jpg",
+      "label": 1,
+      "split": "val"
+    },
+    {
+      "file": "b9209055e0bdabc2e55c63d0b8f161db7cfe3b629bf79f5244b84e1012b9610b.png",
+      "sha256_pixels": "b9209055e0bdabc2e55c63d0b8f161db7cfe3b629bf79f5244b84e1012b9610b",
+      "source": "Railway Track fault Detection Updated/Validation/Non defective/IMG_20201114_101851.jpg",
+      "label": 1,
+      "split": "val"
+    },
+    {
+      "file": "9b27773c84132883d9fc1db916d011aa63354648ff0d00c78c75daecedd11328.png",
+      "sha256_pixels": "9b27773c84132883d9fc1db916d011aa63354648ff0d00c78c75daecedd11328",
+      "source": "Railway Track fault Detection Updated/Validation/Non defective/IMG_20201114_101914.jpg",
+      "label": 1,
+      "split": "val"
+    },
+    {
+      "file": "5cb7af7dcb1205ca7570b9c794ffbebc66064c9839b425289641063f5f17361b.png",
+      "sha256_pixels": "5cb7af7dcb1205ca7570b9c794ffbebc66064c9839b425289641063f5f17361b",
+      "source": "Railway Track fault Detection Updated/Validation/Non defective/IMG_20201114_102102.jpg",
+      "label": 1,
+      "split": "val"
+    },
+    {
+      "file": "6c2c2e74d84ddb4a7007dab229cbbb03a56ab71a2ac0e4ced8c2981b37e8db72.png",
+      "sha256_pixels": "6c2c2e74d84ddb4a7007dab229cbbb03a56ab71a2ac0e4ced8c2981b37e8db72",
+      "source": "Railway Track fault Detection Updated/Validation/Non defective/IMG_20201114_102249.jpg",
+      "label": 1,
+      "split": "val"
+    },
+    {
+      "file": "ec6a000ee33baa96351c79a435ea063fbec2b8cec5b2b06ed89ac8566ab44dee.png",
+      "sha256_pixels": "ec6a000ee33baa96351c79a435ea063fbec2b8cec5b2b06ed89ac8566ab44dee",
+      "source": "Railway Track fault Detection Updated/Validation/Non defective/IMG_20201114_102306.jpg",
+      "label": 1,
+      "split": "val"
+    },
+    {
+      "file": "2fffa6669a0f411b851fa792112a6930ed71478d425947977a82c2b6a9e971ef.png",
+      "sha256_pixels": "2fffa6669a0f411b851fa792112a6930ed71478d425947977a82c2b6a9e971ef",
+      "source": "Railway Track fault Detection Updated/Train/Defective/131004959_171473721383413_8222187747086021011_n.jpg",
+      "label": 0,
+      "split": "train"
+    },
+    {
+      "file": "7e5848c946bec9919579bda49778139e1af146a5f58264830703ca364da44b48.png",
+      "sha256_pixels": "7e5848c946bec9919579bda49778139e1af146a5f58264830703ca364da44b48",
+      "source": "Railway Track fault Detection Updated/Train/Defective/131051004_382613492830631_1306891331783850055_n.jpg",
+      "label": 0,
+      "split": "train"
+    },
+    {
+      "file": "610ac2060ccf852f7dcc151818a686d371ec43cc5b4b0e9e3469d1109607dc83.png",
+      "sha256_pixels": "610ac2060ccf852f7dcc151818a686d371ec43cc5b4b0e9e3469d1109607dc83",
+      "source": "Railway Track fault Detection Updated/Train/Defective/131065180_999185033824671_7735147288489715620_n.jpg",
+      "label": 0,
+      "split": "train"
+    },
+    {
+      "file": "4309cac2024da10bb06704d7de75d2e6734571dd6aad73eef7b2d6bcdb81fdf5.png",
+      "sha256_pixels": "4309cac2024da10bb06704d7de75d2e6734571dd6aad73eef7b2d6bcdb81fdf5",
+      "source": "Railway Track fault Detection Updated/Train/Defective/131084537_190751489449739_279862595635733772_n.jpg",
+      "label": 0,
+      "split": "train"
+    },
+    {
+      "file": "797a9e8aaa800eb98a26782fc5fe56c4df2a07a4e97e0744086c234cc29e6a14.png",
+      "sha256_pixels": "797a9e8aaa800eb98a26782fc5fe56c4df2a07a4e97e0744086c234cc29e6a14",
+      "source": "Railway Track fault Detection Updated/Train/Defective/131092897_149705809860659_8798464983059531038_n.jpg",
+      "label": 0,
+      "split": "train"
+    },
+    {
+      "file": "63bcfa695c7c53782be126822b571c53e771a5f6028edb7df7c39e3ffa1ff239.png",
+      "sha256_pixels": "63bcfa695c7c53782be126822b571c53e771a5f6028edb7df7c39e3ffa1ff239",
+      "source": "Railway Track fault Detection Updated/Train/Defective/131098429_134147575143001_1246437012995704959_n.jpg",
+      "label": 0,
+      "split": "train"
+    },
+    {
+      "file": "909c9e583163dcad214fce444461c70d5944370ad6681e1745b5ae906ac2147e.png",
+      "sha256_pixels": "909c9e583163dcad214fce444461c70d5944370ad6681e1745b5ae906ac2147e",
+      "source": "Railway Track fault Detection Updated/Train/Defective/131129946_140815574232570_8925999503657494497_n.jpg",
+      "label": 0,
+      "split": "train"
+    },
+    {
+      "file": "dee151455c420f1bd3d7e05e367ce9ddc0cf1422e33719d20729782218645e75.png",
+      "sha256_pixels": "dee151455c420f1bd3d7e05e367ce9ddc0cf1422e33719d20729782218645e75",
+      "source": "Railway Track fault Detection Updated/Train/Defective/131275810_2686956714949012_5021348409242545922_n.jpg",
+      "label": 0,
+      "split": "train"
+    },
+    {
+      "file": "381ca30ea07f06db810cedc75e016aff50b2522a40ec1bcf6fd14ad4993a05cd.png",
+      "sha256_pixels": "381ca30ea07f06db810cedc75e016aff50b2522a40ec1bcf6fd14ad4993a05cd",
+      "source": "Railway Track fault Detection Updated/Train/Defective/131348023_405054987354853_8834671660058234194_n.jpg",
+      "label": 0,
+      "split": "train"
+    },
+    {
+      "file": "a38f980308215bdfb7f45e435bae9e3d9bde0e2ca2dc7d422bc9aeda33c4f371.png",
+      "sha256_pixels": "a38f980308215bdfb7f45e435bae9e3d9bde0e2ca2dc7d422bc9aeda33c4f371",
+      "source": "Railway Track fault Detection Updated/Train/Defective/131437543_500273490949549_5045378072687137331_n.jpg",
+      "label": 0,
+      "split": "train"
+    },
+    {
+      "file": "97774422d24dbd34c6bd8027fd22c1fc385a347d511a823788dd0b5a8721e3cf.png",
+      "sha256_pixels": "97774422d24dbd34c6bd8027fd22c1fc385a347d511a823788dd0b5a8721e3cf",
+      "source": "Railway Track fault Detection Updated/Train/Defective/2007.05.16_-_002_Broken_rail_weld_-_Flickr_-_faxepl (1).jpg",
+      "label": 0,
+      "split": "train"
+    },
+    {
+      "file": "0f53460ef15e1ae630db899bad066fc07b802cc2393e22341bd636f54749c320.png",
+      "sha256_pixels": "0f53460ef15e1ae630db899bad066fc07b802cc2393e22341bd636f54749c320",
+      "source": "Railway Track fault Detection Updated/Train/Defective/6411009.jpg",
+      "label": 0,
+      "split": "train"
+    },
+    {
+      "file": "9f2beeceee9a06032a1a2ec99d77f411fa023398cd5004b1cf37c04a551bfdb3.png",
+      "sha256_pixels": "9f2beeceee9a06032a1a2ec99d77f411fa023398cd5004b1cf37c04a551bfdb3",
+      "source": "Railway Track fault Detection Updated/Train/Defective/89e8b1a9ca8c41919021f8f4faaf37f0.jpg",
+      "label": 0,
+      "split": "train"
+    },
+    {
+      "file": "3a86f67c03b275ec2557a8744d8295d587b97ee234c037838c663ac19207957b.png",
+      "sha256_pixels": "3a86f67c03b275ec2557a8744d8295d587b97ee234c037838c663ac19207957b",
+      "source": "Railway Track fault Detection Updated/Train/Defective/Broken_railroad_tracks_1.jpg",
+      "label": 0,
+      "split": "train"
+    },
+    {
+      "file": "70c99ff75123b6fe1bd808b31f20bbe05eddae4918ddb32158797b8874b9b67b.png",
+      "sha256_pixels": "70c99ff75123b6fe1bd808b31f20bbe05eddae4918ddb32158797b8874b9b67b",
+      "source": "Railway Track fault Detection Updated/Train/Defective/E116_8996 (1).jpg",
+      "label": 0,
+      "split": "train"
+    },
+    {
+      "file": "a4056a104500897e5f2167b0c875c5b352126769b54d3665f291e7a9bf7e333a.png",
+      "sha256_pixels": "a4056a104500897e5f2167b0c875c5b352126769b54d3665f291e7a9bf7e333a",
+      "source": "Railway Track fault Detection Updated/Train/Defective/IMG_20201114_100202.jpg",
+      "label": 0,
+      "split": "train"
+    },
+    {
+      "file": "61ca436e28dc57a4d9583422747df104b4ca2bebdc223de830c5d67ec50b74af.png",
+      "sha256_pixels": "61ca436e28dc57a4d9583422747df104b4ca2bebdc223de830c5d67ec50b74af",
+      "source": "Railway Track fault Detection Updated/Train/Defective/IMG_20201114_100206.jpg",
+      "label": 0,
+      "split": "train"
+    },
+    {
+      "file": "d44642b2fe7bdd0319fb58f87a063a9b1f61abfe6a7ed3f698391b6838437de7.png",
+      "sha256_pixels": "d44642b2fe7bdd0319fb58f87a063a9b1f61abfe6a7ed3f698391b6838437de7",
+      "source": "Railway Track fault Detection Updated/Train/Defective/IMG_20201114_100220.jpg",
+      "label": 0,
+      "split": "train"
+    },
+    {
+      "file": "d5cca508e297c73fd161f2414be89a9e1a8d352b0dbdf4e0a70188e53ff9efb2.png",
+      "sha256_pixels": "d5cca508e297c73fd161f2414be89a9e1a8d352b0dbdf4e0a70188e53ff9efb2",
+      "source": "Railway Track fault Detection Updated/Train/Defective/IMG_20201114_100226.jpg",
+      "label": 0,
+      "split": "train"
+    },
+    {
+      "file": "d48c452a54bb37597e94ebe845fde648cb9050eafe6c4dc6f82e05f73992a44d.png",
+      "sha256_pixels": "d48c452a54bb37597e94ebe845fde648cb9050eafe6c4dc6f82e05f73992a44d",
+      "source": "Railway Track fault Detection Updated/Train/Defective/IMG_20201114_100946.jpg",
+      "label": 0,
+      "split": "train"
+    },
+    {
+      "file": "8a9fcf368047c28b454103c5cd44f719a9885e0b45291d5dda898633ad1c30c1.png",
+      "sha256_pixels": "8a9fcf368047c28b454103c5cd44f719a9885e0b45291d5dda898633ad1c30c1",
+      "source": "Railway Track fault Detection Updated/Train/Defective/IMG_20201114_100947.jpg",
+      "label": 0,
+      "split": "train"
+    },
+    {
+      "file": "373e7d6bce1124d02219740916cbaf01b953acb7597c35c76d974db76e2471d4.png",
+      "sha256_pixels": "373e7d6bce1124d02219740916cbaf01b953acb7597c35c76d974db76e2471d4",
+      "source": "Railway Track fault Detection Updated/Train/Defective/IMG_20201114_100950.jpg",
+      "label": 0,
+      "split": "train"
+    },
+    {
+      "file": "78f75eec8bf600afa5c67726a115cba91373769ab8fe7c601a057ecb4d590140.png",
+      "sha256_pixels": "78f75eec8bf600afa5c67726a115cba91373769ab8fe7c601a057ecb4d590140",
+      "source": "Railway Track fault Detection Updated/Train/Defective/IMG_20201114_101121.jpg",
+      "label": 0,
+      "split": "train"
+    },
+    {
+      "file": "6a8b0d6947a46d54d886868306a493cfcd0a42cc464cc949c75aa11a47589a5b.png",
+      "sha256_pixels": "6a8b0d6947a46d54d886868306a493cfcd0a42cc464cc949c75aa11a47589a5b",
+      "source": "Railway Track fault Detection Updated/Train/Defective/IMG_20201114_101130.jpg",
+      "label": 0,
+      "split": "train"
+    },
+    {
+      "file": "4736e1f0d1bd6345ee4f06124a57a3ac737918c14a8e55b1a910cd6ce1daba99.png",
+      "sha256_pixels": "4736e1f0d1bd6345ee4f06124a57a3ac737918c14a8e55b1a910cd6ce1daba99",
+      "source": "Railway Track fault Detection Updated/Train/Defective/IMG_20201114_101134.jpg",
+      "label": 0,
+      "split": "train"
+    },
+    {
+      "file": "ddfbf36bf1aa915ea538dcd58bf5f9aed10bef48bb979557de105898ef985700.png",
+      "sha256_pixels": "ddfbf36bf1aa915ea538dcd58bf5f9aed10bef48bb979557de105898ef985700",
+      "source": "Railway Track fault Detection Updated/Train/Defective/IMG_20201114_101138.jpg",
+      "label": 0,
+      "split": "train"
+    },
+    {
+      "file": "bdd8bf3fc0b38f8eb94393302d0f85d5ba3baaddf750a316060f0f18ac391c08.png",
+      "sha256_pixels": "bdd8bf3fc0b38f8eb94393302d0f85d5ba3baaddf750a316060f0f18ac391c08",
+      "source": "Railway Track fault Detection Updated/Train/Defective/IMG_20201114_101143.jpg",
+      "label": 0,
+      "split": "train"
+    },
+    {
+      "file": "1b711bc6c79b647e1b6eb04c2ad96365f87c55e53f12aea5d20d94752b20dd2f.png",
+      "sha256_pixels": "1b711bc6c79b647e1b6eb04c2ad96365f87c55e53f12aea5d20d94752b20dd2f",
+      "source": "Railway Track fault Detection Updated/Train/Defective/IMG_20201114_101148.jpg",
+      "label": 0,
+      "split": "train"
+    },
+    {
+      "file": "189f28e53648add3df39e31c0204f67ce2025154a322d83118f0528d0f5af2da.png",
+      "sha256_pixels": "189f28e53648add3df39e31c0204f67ce2025154a322d83118f0528d0f5af2da",
+      "source": "Railway Track fault Detection Updated/Train/Defective/IMG_20201114_101149.jpg",
+      "label": 0,
+      "split": "train"
+    },
+    {
+      "file": "92d753c998ef4aa6bf6cb72118489da4535a6857b752c417e9de9c354783d818.png",
+      "sha256_pixels": "92d753c998ef4aa6bf6cb72118489da4535a6857b752c417e9de9c354783d818",
+      "source": "Railway Track fault Detection Updated/Train/Defective/IMG_20201114_101157.jpg",
+      "label": 0,
+      "split": "train"
+    },
+    {
+      "file": "4d8169044343f281b30b64952ba199e1014bac1cc837438eda630cbc0125ad05.png",
+      "sha256_pixels": "4d8169044343f281b30b64952ba199e1014bac1cc837438eda630cbc0125ad05",
+      "source": "Railway Track fault Detection Updated/Train/Defective/IMG_20201114_101537.jpg",
+      "label": 0,
+      "split": "train"
+    },
+    {
+      "file": "063815a7abf2552fb765e7eac8832499af7499fd4a5b33b036742b2049c2063a.png",
+      "sha256_pixels": "063815a7abf2552fb765e7eac8832499af7499fd4a5b33b036742b2049c2063a",
+      "source": "Railway Track fault Detection Updated/Train/Defective/IMG_20201114_101539.jpg",
+      "label": 0,
+      "split": "train"
+    },
+    {
+      "file": "a56ee553e7dcb37eeb292542c68783b07acccabde017fc59a0626a556a78409c.png",
+      "sha256_pixels": "a56ee553e7dcb37eeb292542c68783b07acccabde017fc59a0626a556a78409c",
+      "source": "Railway Track fault Detection Updated/Train/Defective/IMG_20201114_101541.jpg",
+      "label": 0,
+      "split": "train"
+    },
+    {
+      "file": "733b250c93b4dc6842d131fbc45f6873e7fbbfae1e5ff247c53efa796f226d1d.png",
+      "sha256_pixels": "733b250c93b4dc6842d131fbc45f6873e7fbbfae1e5ff247c53efa796f226d1d",
+      "source": "Railway Track fault Detection Updated/Train/Defective/IMG_20201114_101612.jpg",
+      "label": 0,
+      "split": "train"
+    },
+    {
+      "file": "0e5b9d77e82f866c871981433fe23eb744422f29994d586f5af5012efedbe61c.png",
+      "sha256_pixels": "0e5b9d77e82f866c871981433fe23eb744422f29994d586f5af5012efedbe61c",
+      "source": "Railway Track fault Detection Updated/Train/Defective/IMG_20201114_101614.jpg",
+      "label": 0,
+      "split": "train"
+    },
+    {
+      "file": "688c86384ffcdc52eecd67b1ec24894dd305f189dc5f7f9956e084958a4c00c2.png",
+      "sha256_pixels": "688c86384ffcdc52eecd67b1ec24894dd305f189dc5f7f9956e084958a4c00c2",
+      "source": "Railway Track fault Detection Updated/Train/Defective/IMG_20201114_101628.jpg",
+      "label": 0,
+      "split": "train"
+    },
+    {
+      "file": "89fc9d8d48deea1fd8b23ea99dbbbb68dbcf8c155ff58fe46e1ac64000ead71a.png",
+      "sha256_pixels": "89fc9d8d48deea1fd8b23ea99dbbbb68dbcf8c155ff58fe46e1ac64000ead71a",
+      "source": "Railway Track fault Detection Updated/Train/Defective/IMG_20201114_101630.jpg",
+      "label": 0,
+      "split": "train"
+    },
+    {
+      "file": "1ef87c559beda48925c41d04901048e23021179b6487c3e34d83da78fc832ac2.png",
+      "sha256_pixels": "1ef87c559beda48925c41d04901048e23021179b6487c3e34d83da78fc832ac2",
+      "source": "Railway Track fault Detection Updated/Train/Defective/IMG_20201114_101637.jpg",
+      "label": 0,
+      "split": "train"
+    },
+    {
+      "file": "ae7024d4eee46b0cc14e21101ab98b4467d75444c97d256b23b00a6296da0bdf.png",
+      "sha256_pixels": "ae7024d4eee46b0cc14e21101ab98b4467d75444c97d256b23b00a6296da0bdf",
+      "source": "Railway Track fault Detection Updated/Train/Defective/IMG_20201114_101658.jpg",
+      "label": 0,
+      "split": "train"
+    },
+    {
+      "file": "9bb03918352a05ff152c0bf4383b6cec54ae07688a36264affff535b3c7135bb.png",
+      "sha256_pixels": "9bb03918352a05ff152c0bf4383b6cec54ae07688a36264affff535b3c7135bb",
+      "source": "Railway Track fault Detection Updated/Train/Defective/IMG_20201114_101700.jpg",
+      "label": 0,
+      "split": "train"
+    },
+    {
+      "file": "30e61a2477448c547a488ce7ec3fb3dec3f06474b661c22643db5152b37246a1.png",
+      "sha256_pixels": "30e61a2477448c547a488ce7ec3fb3dec3f06474b661c22643db5152b37246a1",
+      "source": "Railway Track fault Detection Updated/Train/Defective/IMG_20201114_101820.jpg",
+      "label": 0,
+      "split": "train"
+    },
+    {
+      "file": "75d3b4b92bc51fe7f8c1b04525b2a19826947352d58da1eefbfde4db94f6df6c.png",
+      "sha256_pixels": "75d3b4b92bc51fe7f8c1b04525b2a19826947352d58da1eefbfde4db94f6df6c",
+      "source": "Railway Track fault Detection Updated/Train/Defective/IMG_20201114_101823.jpg",
+      "label": 0,
+      "split": "train"
+    },
+    {
+      "file": "f7cd3f1647efc3da1e7c864f5fa469ce96ed2e31224c1d5e7327460069c892c3.png",
+      "sha256_pixels": "f7cd3f1647efc3da1e7c864f5fa469ce96ed2e31224c1d5e7327460069c892c3",
+      "source": "Railway Track fault Detection Updated/Train/Defective/IMG_20201114_101830.jpg",
+      "label": 0,
+      "split": "train"
+    },
+    {
+      "file": "78e9120bbb527e9c5910cd9f6f53e5c3eac4d0c63556c5c05960ee389a932230.png",
+      "sha256_pixels": "78e9120bbb527e9c5910cd9f6f53e5c3eac4d0c63556c5c05960ee389a932230",
+      "source": "Railway Track fault Detection Updated/Train/Defective/IMG_20201114_101835.jpg",
+      "label": 0,
+      "split": "train"
+    },
+    {
+      "file": "1ec3ee4c2e0d2634d6dc67d183bdb38f2c038106043a09e8b487cfe4cb3659f2.png",
+      "sha256_pixels": "1ec3ee4c2e0d2634d6dc67d183bdb38f2c038106043a09e8b487cfe4cb3659f2",
+      "source": "Railway Track fault Detection Updated/Train/Defective/IMG_20201114_101930.jpg",
+      "label": 0,
+      "split": "train"
+    },
+    {
+      "file": "32a226370e79fa93366a92ff847f354b885dde43ef6449265117a9fce1b38a3a.png",
+      "sha256_pixels": "32a226370e79fa93366a92ff847f354b885dde43ef6449265117a9fce1b38a3a",
+      "source": "Railway Track fault Detection Updated/Train/Defective/IMG_20201114_101938.jpg",
+      "label": 0,
+      "split": "train"
+    },
+    {
+      "file": "387594d412152b808a72c9326cd5ffe0c632a34ca5eacdafddbc137c2e6ec324.png",
+      "sha256_pixels": "387594d412152b808a72c9326cd5ffe0c632a34ca5eacdafddbc137c2e6ec324",
+      "source": "Railway Track fault Detection Updated/Train/Defective/IMG_20201114_101946.jpg",
+      "label": 0,
+      "split": "train"
+    },
+    {
+      "file": "c1171176bfc8f79db736db59ee013bd9b68c944b14866c8e93531f0a014db554.png",
+      "sha256_pixels": "c1171176bfc8f79db736db59ee013bd9b68c944b14866c8e93531f0a014db554",
+      "source": "Railway Track fault Detection Updated/Train/Defective/IMG_20201114_101952.jpg",
+      "label": 0,
+      "split": "train"
+    },
+    {
+      "file": "58d5c6c7d262c370c47ee8cb11debc61278f034fc87cadc48ef381ecd9039f70.png",
+      "sha256_pixels": "58d5c6c7d262c370c47ee8cb11debc61278f034fc87cadc48ef381ecd9039f70",
+      "source": "Railway Track fault Detection Updated/Train/Defective/IMG_20201114_102004.jpg",
+      "label": 0,
+      "split": "train"
+    },
+    {
+      "file": "e515eca91e7e63dd626aedc7e751f6fd0b382e65e9233f0c279bfb717c6f98cd.png",
+      "sha256_pixels": "e515eca91e7e63dd626aedc7e751f6fd0b382e65e9233f0c279bfb717c6f98cd",
+      "source": "Railway Track fault Detection Updated/Train/Defective/IMG_20201114_102009.jpg",
+      "label": 0,
+      "split": "train"
+    },
+    {
+      "file": "183ef2b7752267263bda5419b7d28d369565be780d5c469b92458b9a937d3f66.png",
+      "sha256_pixels": "183ef2b7752267263bda5419b7d28d369565be780d5c469b92458b9a937d3f66",
+      "source": "Railway Track fault Detection Updated/Train/Defective/IMG_20201114_102011.jpg",
+      "label": 0,
+      "split": "train"
+    },
+    {
+      "file": "453d1fda9bc071a3949e7cd0173359a1e2b3be78073d58d52daf66b8258e771f.png",
+      "sha256_pixels": "453d1fda9bc071a3949e7cd0173359a1e2b3be78073d58d52daf66b8258e771f",
+      "source": "Railway Track fault Detection Updated/Train/Defective/IMG_20201114_102017.jpg",
+      "label": 0,
+      "split": "train"
+    },
+    {
+      "file": "52487e83a379563abb889d189cb45ba7c7f530cac381becdf2aeea869ea387b9.png",
+      "sha256_pixels": "52487e83a379563abb889d189cb45ba7c7f530cac381becdf2aeea869ea387b9",
+      "source": "Railway Track fault Detection Updated/Train/Defective/IMG_20201114_102019.jpg",
+      "label": 0,
+      "split": "train"
+    },
+    {
+      "file": "c84324501f3e87e187137d5781f6dd343a75571433a62dfb6f78f380a8c28f06.png",
+      "sha256_pixels": "c84324501f3e87e187137d5781f6dd343a75571433a62dfb6f78f380a8c28f06",
+      "source": "Railway Track fault Detection Updated/Train/Defective/IMG_20201114_102022.jpg",
+      "label": 0,
+      "split": "train"
+    },
+    {
+      "file": "c678c6e5fd392c009bb3220837f13e210fd4fa15dfb31e06469036b8760ee1ff.png",
+      "sha256_pixels": "c678c6e5fd392c009bb3220837f13e210fd4fa15dfb31e06469036b8760ee1ff",
+      "source": "Railway Track fault Detection Updated/Train/Defective/IMG_20201114_102035.jpg",
+      "label": 0,
+      "split": "train"
+    },
+    {
+      "file": "1e42865d47fa2c0c7d0bcec977a602746f52f70e3ae28cacf98490bba430f1b6.png",
+      "sha256_pixels": "1e42865d47fa2c0c7d0bcec977a602746f52f70e3ae28cacf98490bba430f1b6",
+      "source": "Railway Track fault Detection Updated/Train/Defective/IMG_20201114_102044.jpg",
+      "label": 0,
+      "split": "train"
+    },
+    {
+      "file": "6798d4203c66fba79e2757bc22259cd0ec70b1c89f0ae0234b74e610de8ad469.png",
+      "sha256_pixels": "6798d4203c66fba79e2757bc22259cd0ec70b1c89f0ae0234b74e610de8ad469",
+      "source": "Railway Track fault Detection Updated/Train/Defective/IMG_20201114_102058.jpg",
+      "label": 0,
+      "split": "train"
+    },
+    {
+      "file": "b11bea74a125a3f2640f4f99f5cccc14ffdb76e84417752d9844d2e25e9015a2.png",
+      "sha256_pixels": "b11bea74a125a3f2640f4f99f5cccc14ffdb76e84417752d9844d2e25e9015a2",
+      "source": "Railway Track fault Detection Updated/Train/Defective/IMG_20201114_102124.jpg",
+      "label": 0,
+      "split": "train"
+    },
+    {
+      "file": "25556a3c5ba1dc093378c7295336394236bce378b2814e094e5e42fe3b6cc322.png",
+      "sha256_pixels": "25556a3c5ba1dc093378c7295336394236bce378b2814e094e5e42fe3b6cc322",
+      "source": "Railway Track fault Detection Updated/Train/Defective/IMG_20201114_102154.jpg",
+      "label": 0,
+      "split": "train"
+    },
+    {
+      "file": "3a20ff0b05a1284d1a77dcd17b5f85944fd43d4de1d3e0be2c77d9e46e957f13.png",
+      "sha256_pixels": "3a20ff0b05a1284d1a77dcd17b5f85944fd43d4de1d3e0be2c77d9e46e957f13",
+      "source": "Railway Track fault Detection Updated/Train/Defective/IMG_20201114_102200.jpg",
+      "label": 0,
+      "split": "train"
+    },
+    {
+      "file": "45d1c5980d783edbaf9b42469a95a9ad42b7d4edb9f8cc1a7672844dfde9bc4a.png",
+      "sha256_pixels": "45d1c5980d783edbaf9b42469a95a9ad42b7d4edb9f8cc1a7672844dfde9bc4a",
+      "source": "Railway Track fault Detection Updated/Train/Defective/IMG_20201114_102206.jpg",
+      "label": 0,
+      "split": "train"
+    },
+    {
+      "file": "76cbc00469bd8e95e1afa871bfa90479cb0a5da7063d49f0864965a5476b961d.png",
+      "sha256_pixels": "76cbc00469bd8e95e1afa871bfa90479cb0a5da7063d49f0864965a5476b961d",
+      "source": "Railway Track fault Detection Updated/Train/Defective/IMG_20201114_102215.jpg",
+      "label": 0,
+      "split": "train"
+    },
+    {
+      "file": "ee39647a22a69e5c1dfa0e120fad1298bdd508e3130d0e8edb3d8bd0d207b1d0.png",
+      "sha256_pixels": "ee39647a22a69e5c1dfa0e120fad1298bdd508e3130d0e8edb3d8bd0d207b1d0",
+      "source": "Railway Track fault Detection Updated/Train/Defective/IMG_20201114_102217.jpg",
+      "label": 0,
+      "split": "train"
+    },
+    {
+      "file": "664d79fe9ba51939ed9f17387e4add49a7a30bad6ca33a1c8ceac1accc7ffb48.png",
+      "sha256_pixels": "664d79fe9ba51939ed9f17387e4add49a7a30bad6ca33a1c8ceac1accc7ffb48",
+      "source": "Railway Track fault Detection Updated/Train/Defective/IMG_20201114_102230.jpg",
+      "label": 0,
+      "split": "train"
+    },
+    {
+      "file": "b0ea39d8a7bf6fea36d080ef2ab677cd42ad88c270c54c203f39d1132682682c.png",
+      "sha256_pixels": "b0ea39d8a7bf6fea36d080ef2ab677cd42ad88c270c54c203f39d1132682682c",
+      "source": "Railway Track fault Detection Updated/Train/Defective/IMG_20201114_102338.jpg",
+      "label": 0,
+      "split": "train"
+    },
+    {
+      "file": "25d18262eb86ba3c743bdf6106caf5e1d8b166605e5bfc1a5135a02894d5509a.png",
+      "sha256_pixels": "25d18262eb86ba3c743bdf6106caf5e1d8b166605e5bfc1a5135a02894d5509a",
+      "source": "Railway Track fault Detection Updated/Train/Defective/IMG_20201114_102340.jpg",
+      "label": 0,
+      "split": "train"
+    },
+    {
+      "file": "074ddb0e66b4c5ead15a84f2c637980955119e4afed61cfbdda75b4c34e783cf.png",
+      "sha256_pixels": "074ddb0e66b4c5ead15a84f2c637980955119e4afed61cfbdda75b4c34e783cf",
+      "source": "Railway Track fault Detection Updated/Train/Defective/IMG_20201114_102348.jpg",
+      "label": 0,
+      "split": "train"
+    },
+    {
+      "file": "62c7b26ab2d269b88a63e3e39a784208a80c4a426aabe60962439d95663fe1ab.png",
+      "sha256_pixels": "62c7b26ab2d269b88a63e3e39a784208a80c4a426aabe60962439d95663fe1ab",
+      "source": "Railway Track fault Detection Updated/Train/Defective/IMG_20201114_102415.jpg",
+      "label": 0,
+      "split": "train"
+    },
+    {
+      "file": "e5274c1f85f5487dc8cb31a9e301e6b665b4f780c01eb25815176d651fd8054c.png",
+      "sha256_pixels": "e5274c1f85f5487dc8cb31a9e301e6b665b4f780c01eb25815176d651fd8054c",
+      "source": "Railway Track fault Detection Updated/Train/Defective/IMG_20201114_102726.jpg",
+      "label": 0,
+      "split": "train"
+    },
+    {
+      "file": "f0f5228ed3ee12f9396c8bb61253f2e15e044119c0b99d07acf368a87d049a76.png",
+      "sha256_pixels": "f0f5228ed3ee12f9396c8bb61253f2e15e044119c0b99d07acf368a87d049a76",
+      "source": "Railway Track fault Detection Updated/Train/Defective/IMG_20201114_102729.jpg",
+      "label": 0,
+      "split": "train"
+    },
+    {
+      "file": "8ffd894cd084b7cdb8dcefc01241d1b2bb828d62e7ff0feee8d6648efbcfb5b0.png",
+      "sha256_pixels": "8ffd894cd084b7cdb8dcefc01241d1b2bb828d62e7ff0feee8d6648efbcfb5b0",
+      "source": "Railway Track fault Detection Updated/Train/Defective/IMG_20201114_102732.jpg",
+      "label": 0,
+      "split": "train"
+    },
+    {
+      "file": "5bfbfe5644522d8a018fcbdc2e3a0574e2b0c9e3cff18197ab53be5f167ba148.png",
+      "sha256_pixels": "5bfbfe5644522d8a018fcbdc2e3a0574e2b0c9e3cff18197ab53be5f167ba148",
+      "source": "Railway Track fault Detection Updated/Train/Defective/IMG_20201114_102741.jpg",
+      "label": 0,
+      "split": "train"
+    },
+    {
+      "file": "acfde73d2f7a81be80f48a466d4857e44954c7b6e3464818a0cf535868c08e07.png",
+      "sha256_pixels": "acfde73d2f7a81be80f48a466d4857e44954c7b6e3464818a0cf535868c08e07",
+      "source": "Railway Track fault Detection Updated/Train/Defective/IMG_20201114_102808.jpg",
+      "label": 0,
+      "split": "train"
+    },
+    {
+      "file": "c61615a2afd6694feb12c690450081825fd39692db1e5c4e6ac58d6b04d78e07.png",
+      "sha256_pixels": "c61615a2afd6694feb12c690450081825fd39692db1e5c4e6ac58d6b04d78e07",
+      "source": "Railway Track fault Detection Updated/Train/Defective/IMG_20201114_102811.jpg",
+      "label": 0,
+      "split": "train"
+    },
+    {
+      "file": "31fbcddff5e4e11f60f83806ca78f3e1b1dfd68f14775b277b886bcc0283c58c.png",
+      "sha256_pixels": "31fbcddff5e4e11f60f83806ca78f3e1b1dfd68f14775b277b886bcc0283c58c",
+      "source": "Railway Track fault Detection Updated/Train/Defective/IMG_20201114_102816.jpg",
+      "label": 0,
+      "split": "train"
+    },
+    {
+      "file": "a7c04a4ee0c9808fd5d70952c74d232c26f7b946eb9a65b19fe60383ab0dfcfe.png",
+      "sha256_pixels": "a7c04a4ee0c9808fd5d70952c74d232c26f7b946eb9a65b19fe60383ab0dfcfe",
+      "source": "Railway Track fault Detection Updated/Train/Defective/IMG_20201114_102824.jpg",
+      "label": 0,
+      "split": "train"
+    },
+    {
+      "file": "73c55d9373ebb583c904cbc1fc45540bd7c3410fff3b2ca084c91e08e0f10e82.png",
+      "sha256_pixels": "73c55d9373ebb583c904cbc1fc45540bd7c3410fff3b2ca084c91e08e0f10e82",
+      "source": "Railway Track fault Detection Updated/Train/Defective/IMG_20201114_102936.jpg",
+      "label": 0,
+      "split": "train"
+    },
+    {
+      "file": "f558a66c3bf9b76bfb491991eebf9b0a432152f2ea23c75bd1602b85eb33a57a.png",
+      "sha256_pixels": "f558a66c3bf9b76bfb491991eebf9b0a432152f2ea23c75bd1602b85eb33a57a",
+      "source": "Railway Track fault Detection Updated/Train/Defective/IMG_20201114_102939.jpg",
+      "label": 0,
+      "split": "train"
+    },
+    {
+      "file": "3719274d66585263bd7e1d2d4c1e6e1e1ca74cd17df6ef2803dd765a7281c304.png",
+      "sha256_pixels": "3719274d66585263bd7e1d2d4c1e6e1e1ca74cd17df6ef2803dd765a7281c304",
+      "source": "Railway Track fault Detection Updated/Train/Defective/IMG_20201114_103041.jpg",
+      "label": 0,
+      "split": "train"
+    },
+    {
+      "file": "9a29776c98975fe2065f3e28fffc5553b4c1892e692ecdb5d8f54170fd457f41.png",
+      "sha256_pixels": "9a29776c98975fe2065f3e28fffc5553b4c1892e692ecdb5d8f54170fd457f41",
+      "source": "Railway Track fault Detection Updated/Train/Defective/IMG_20201114_103058.jpg",
+      "label": 0,
+      "split": "train"
+    },
+    {
+      "file": "404e34d0db27a42821b7c8f0ad5b979339328ed74957aa4ba0b72cd7269efbe7.png",
+      "sha256_pixels": "404e34d0db27a42821b7c8f0ad5b979339328ed74957aa4ba0b72cd7269efbe7",
+      "source": "Railway Track fault Detection Updated/Train/Defective/IMG_20201114_103059.jpg",
+      "label": 0,
+      "split": "train"
+    },
+    {
+      "file": "75f3101b1ecb79702962656fb386102d0729a904c57ed0013b6f69b64883562d.png",
+      "sha256_pixels": "75f3101b1ecb79702962656fb386102d0729a904c57ed0013b6f69b64883562d",
+      "source": "Railway Track fault Detection Updated/Train/Defective/IMG_20201114_103138.jpg",
+      "label": 0,
+      "split": "train"
+    },
+    {
+      "file": "aa5c63b2e288396c81a869ac3a9db12ecb62515593b5542beda8ff91fa507214.png",
+      "sha256_pixels": "aa5c63b2e288396c81a869ac3a9db12ecb62515593b5542beda8ff91fa507214",
+      "source": "Railway Track fault Detection Updated/Train/Defective/IMG_20201114_103150.jpg",
+      "label": 0,
+      "split": "train"
+    },
+    {
+      "file": "0dcf3cac1c99815eefec06a41432b7fb0c95b9ef3ccb6805d8287df4112313da.png",
+      "sha256_pixels": "0dcf3cac1c99815eefec06a41432b7fb0c95b9ef3ccb6805d8287df4112313da",
+      "source": "Railway Track fault Detection Updated/Train/Defective/IMG_20201211_112617.jpg",
+      "label": 0,
+      "split": "train"
+    },
+    {
+      "file": "d208af0edf8729928525d71d47c7130348f6c4627d3366ad57a6038711715f72.png",
+      "sha256_pixels": "d208af0edf8729928525d71d47c7130348f6c4627d3366ad57a6038711715f72",
+      "source": "Railway Track fault Detection Updated/Train/Defective/IMG_20201211_112622.jpg",
+      "label": 0,
+      "split": "train"
+    },
+    {
+      "file": "75599eb5f6c2c7c07384a28cae658ffe774c89d0a053c0d73a773ea3e997be33.png",
+      "sha256_pixels": "75599eb5f6c2c7c07384a28cae658ffe774c89d0a053c0d73a773ea3e997be33",
+      "source": "Railway Track fault Detection Updated/Train/Defective/IMG_20201211_112635.jpg",
+      "label": 0,
+      "split": "train"
+    },
+    {
+      "file": "18a8155e93a3d4f7a788846c5aada02aa3d3ad117b55aa453870f93b85df458b.png",
+      "sha256_pixels": "18a8155e93a3d4f7a788846c5aada02aa3d3ad117b55aa453870f93b85df458b",
+      "source": "Railway Track fault Detection Updated/Train/Defective/IMG_20201211_112701.jpg",
+      "label": 0,
+      "split": "train"
+    },
+    {
+      "file": "9f23f80c2d6de7f95771b0a4fdb1b2801f544699e554c1a3f8047abd6f58782d.png",
+      "sha256_pixels": "9f23f80c2d6de7f95771b0a4fdb1b2801f544699e554c1a3f8047abd6f58782d",
+      "source": "Railway Track fault Detection Updated/Train/Defective/IMG_20201211_112709.jpg",
+      "label": 0,
+      "split": "train"
+    },
+    {
+      "file": "944dcda02bc866f43432964246d029e47a9a0d62cc3f87e2af3a38194deaa77d.png",
+      "sha256_pixels": "944dcda02bc866f43432964246d029e47a9a0d62cc3f87e2af3a38194deaa77d",
+      "source": "Railway Track fault Detection Updated/Train/Defective/IMG_20201211_112717.jpg",
+      "label": 0,
+      "split": "train"
+    },
+    {
+      "file": "1d11898e05a6ab2069b534b4cedad7225aff4ad11db15664c0542cc1fc877143.png",
+      "sha256_pixels": "1d11898e05a6ab2069b534b4cedad7225aff4ad11db15664c0542cc1fc877143",
+      "source": "Railway Track fault Detection Updated/Train/Defective/IMG_20201211_112721.jpg",
+      "label": 0,
+      "split": "train"
+    },
+    {
+      "file": "45364b874b702e0e3c576204108e6b95a0e148dfdb00bcf7bbf4382b9680bc90.png",
+      "sha256_pixels": "45364b874b702e0e3c576204108e6b95a0e148dfdb00bcf7bbf4382b9680bc90",
+      "source": "Railway Track fault Detection Updated/Train/Defective/IMG_20201211_112802.jpg",
+      "label": 0,
+      "split": "train"
+    },
+    {
+      "file": "94574a80ec554ecd225a0410a031437661a8d1efc0fe723f2144b7846fed0921.png",
+      "sha256_pixels": "94574a80ec554ecd225a0410a031437661a8d1efc0fe723f2144b7846fed0921",
+      "source": "Railway Track fault Detection Updated/Train/Defective/IMG_20201211_112807.jpg",
+      "label": 0,
+      "split": "train"
+    },
+    {
+      "file": "5cdeead764a466fe137ffea5a1b9faf96646fa636c5e633d09bfe569bf006d54.png",
+      "sha256_pixels": "5cdeead764a466fe137ffea5a1b9faf96646fa636c5e633d09bfe569bf006d54",
+      "source": "Railway Track fault Detection Updated/Train/Defective/IMG_20201211_112812.jpg",
+      "label": 0,
+      "split": "train"
+    },
+    {
+      "file": "287518964386127e6b2adc527607523ddbb464fcc52d1308d6494c14f8a98788.png",
+      "sha256_pixels": "287518964386127e6b2adc527607523ddbb464fcc52d1308d6494c14f8a98788",
+      "source": "Railway Track fault Detection Updated/Train/Defective/IMG_20201211_112817.jpg",
+      "label": 0,
+      "split": "train"
+    },
+    {
+      "file": "7dff3c055c4015ec91060123471cbaa9f87bab668e408bf2ff289419947594a7.png",
+      "sha256_pixels": "7dff3c055c4015ec91060123471cbaa9f87bab668e408bf2ff289419947594a7",
+      "source": "Railway Track fault Detection Updated/Train/Defective/IMG_20201211_112838.jpg",
+      "label": 0,
+      "split": "train"
+    },
+    {
+      "file": "d5e4d1ad40827ae31a9f2ab565c821ae2244408ba860143b71aa82e9ba0244c3.png",
+      "sha256_pixels": "d5e4d1ad40827ae31a9f2ab565c821ae2244408ba860143b71aa82e9ba0244c3",
+      "source": "Railway Track fault Detection Updated/Train/Defective/IMG_20201211_112859.jpg",
+      "label": 0,
+      "split": "train"
+    },
+    {
+      "file": "1188d30f3aa4e2a0fa24cb7ef055d3030e87291a880686ca181077757b38e021.png",
+      "sha256_pixels": "1188d30f3aa4e2a0fa24cb7ef055d3030e87291a880686ca181077757b38e021",
+      "source": "Railway Track fault Detection Updated/Train/Defective/IMG_20201211_112904.jpg",
+      "label": 0,
+      "split": "train"
+    },
+    {
+      "file": "c1a9a3b290576bc3a46cf6eda68357b5f9e2c93fca289a4d34b7dd78d3b08f45.png",
+      "sha256_pixels": "c1a9a3b290576bc3a46cf6eda68357b5f9e2c93fca289a4d34b7dd78d3b08f45",
+      "source": "Railway Track fault Detection Updated/Train/Defective/IMG_20201211_112911.jpg",
+      "label": 0,
+      "split": "train"
+    },
+    {
+      "file": "cef4346dac76d2bb5a65df4aaa313afa80a63c165a3ae108bc029b0780b04e9d.png",
+      "sha256_pixels": "cef4346dac76d2bb5a65df4aaa313afa80a63c165a3ae108bc029b0780b04e9d",
+      "source": "Railway Track fault Detection Updated/Train/Defective/IMG_20201211_112914.jpg",
+      "label": 0,
+      "split": "train"
+    },
+    {
+      "file": "49a9d3929c88db94576cb847aab44c5fae87575154fce70d87a2668818e0e9cb.png",
+      "sha256_pixels": "49a9d3929c88db94576cb847aab44c5fae87575154fce70d87a2668818e0e9cb",
+      "source": "Railway Track fault Detection Updated/Train/Defective/IMG_20201211_112917.jpg",
+      "label": 0,
+      "split": "train"
+    },
+    {
+      "file": "da46d38056e81d5945addac2d0103c1c0de77afc23fc61b12f83f9ba3313d4bf.png",
+      "sha256_pixels": "da46d38056e81d5945addac2d0103c1c0de77afc23fc61b12f83f9ba3313d4bf",
+      "source": "Railway Track fault Detection Updated/Train/Defective/IMG_20201211_112924.jpg",
+      "label": 0,
+      "split": "train"
+    },
+    {
+      "file": "cb3fb78720af53037b9f5e95b983290ffd6d14c01ac4090ca135136e4c3f2fae.png",
+      "sha256_pixels": "cb3fb78720af53037b9f5e95b983290ffd6d14c01ac4090ca135136e4c3f2fae",
+      "source": "Railway Track fault Detection Updated/Train/Defective/IMG_20201211_112949.jpg",
+      "label": 0,
+      "split": "train"
+    },
+    {
+      "file": "8a8d2f92f97e78e23fd826b857ca1771d8d989e5ede767e7eb98710833c95407.png",
+      "sha256_pixels": "8a8d2f92f97e78e23fd826b857ca1771d8d989e5ede767e7eb98710833c95407",
+      "source": "Railway Track fault Detection Updated/Train/Defective/IMG_20201211_112951.jpg",
+      "label": 0,
+      "split": "train"
+    },
+    {
+      "file": "24eac003da5606038950649c8dcf8c3ebf21d51ab48b14104e74442bb9e3785f.png",
+      "sha256_pixels": "24eac003da5606038950649c8dcf8c3ebf21d51ab48b14104e74442bb9e3785f",
+      "source": "Railway Track fault Detection Updated/Train/Defective/IMG_20201211_113317.jpg",
+      "label": 0,
+      "split": "train"
+    },
+    {
+      "file": "c5d3331ae22495e4097148277df1ad501423d025d6a4afd51c200a6e5312019c.png",
+      "sha256_pixels": "c5d3331ae22495e4097148277df1ad501423d025d6a4afd51c200a6e5312019c",
+      "source": "Railway Track fault Detection Updated/Train/Defective/IMG_20201211_113324.jpg",
+      "label": 0,
+      "split": "train"
+    },
+    {
+      "file": "6f33166564d9da7ae27d057ac75f80a29863022c27ee289d9206cf3d17e223e5.png",
+      "sha256_pixels": "6f33166564d9da7ae27d057ac75f80a29863022c27ee289d9206cf3d17e223e5",
+      "source": "Railway Track fault Detection Updated/Train/Defective/IMG_20201211_113329.jpg",
+      "label": 0,
+      "split": "train"
+    },
+    {
+      "file": "27dc07f86c2ee2d1e518cd7c2402ef988556db9768acc420bee7e84ac3b2d256.png",
+      "sha256_pixels": "27dc07f86c2ee2d1e518cd7c2402ef988556db9768acc420bee7e84ac3b2d256",
+      "source": "Railway Track fault Detection Updated/Train/Defective/IMG_20201211_113346.jpg",
+      "label": 0,
+      "split": "train"
+    },
+    {
+      "file": "b891300db8769fbb365da6dc2dd15844b95601c6a0a6dffbef0387556f50cdc6.png",
+      "sha256_pixels": "b891300db8769fbb365da6dc2dd15844b95601c6a0a6dffbef0387556f50cdc6",
+      "source": "Railway Track fault Detection Updated/Train/Defective/IMG_20201211_113354.jpg",
+      "label": 0,
+      "split": "train"
+    },
+    {
+      "file": "9e82f08296ab0883e891b60f2957d930826673800c2e35c09d057ddb2ff64e73.png",
+      "sha256_pixels": "9e82f08296ab0883e891b60f2957d930826673800c2e35c09d057ddb2ff64e73",
+      "source": "Railway Track fault Detection Updated/Train/Defective/IMG_20201211_113410.jpg",
+      "label": 0,
+      "split": "train"
+    },
+    {
+      "file": "e93f26a8b2615df3bf185bd047aa0600434dc851abd20d57bb0834e30f00a71f.png",
+      "sha256_pixels": "e93f26a8b2615df3bf185bd047aa0600434dc851abd20d57bb0834e30f00a71f",
+      "source": "Railway Track fault Detection Updated/Train/Defective/IMG_20201211_113415.jpg",
+      "label": 0,
+      "split": "train"
+    },
+    {
+      "file": "375779fb2b6bf925bddc5d6e5880be84d60189c1b37eea1943d2202acaa1ce14.png",
+      "sha256_pixels": "375779fb2b6bf925bddc5d6e5880be84d60189c1b37eea1943d2202acaa1ce14",
+      "source": "Railway Track fault Detection Updated/Train/Defective/IMG_20201211_113434.jpg",
+      "label": 0,
+      "split": "train"
+    },
+    {
+      "file": "57b16fcac148d8f02c745d90b257ad3794138e47f5b9a32f94416352a163b795.png",
+      "sha256_pixels": "57b16fcac148d8f02c745d90b257ad3794138e47f5b9a32f94416352a163b795",
+      "source": "Railway Track fault Detection Updated/Train/Defective/IMG_20201211_113440.jpg",
+      "label": 0,
+      "split": "train"
+    },
+    {
+      "file": "22510bea5ed18a34b244df17fe4838455b1ccb61567d597b77e83d23e629418c.png",
+      "sha256_pixels": "22510bea5ed18a34b244df17fe4838455b1ccb61567d597b77e83d23e629418c",
+      "source": "Railway Track fault Detection Updated/Train/Defective/IMG_20201211_113506.jpg",
+      "label": 0,
+      "split": "train"
+    },
+    {
+      "file": "4951a2e565bd5c4cfd025b1d775c3190917f64f92c50c236c25c1a8325653d90.png",
+      "sha256_pixels": "4951a2e565bd5c4cfd025b1d775c3190917f64f92c50c236c25c1a8325653d90",
+      "source": "Railway Track fault Detection Updated/Train/Defective/IMG_20201211_113626.jpg",
+      "label": 0,
+      "split": "train"
+    },
+    {
+      "file": "e78721abd7f56446898b93283eef8b5edee54a67c0a01c2dc97701e4bbdeb075.png",
+      "sha256_pixels": "e78721abd7f56446898b93283eef8b5edee54a67c0a01c2dc97701e4bbdeb075",
+      "source": "Railway Track fault Detection Updated/Train/Defective/IMG_20201211_113650.jpg",
+      "label": 0,
+      "split": "train"
+    },
+    {
+      "file": "6fdbc5ea7a4b7fafee10db8d46b2bf8af2d2730aed8ecfeca94accf502a43875.png",
+      "sha256_pixels": "6fdbc5ea7a4b7fafee10db8d46b2bf8af2d2730aed8ecfeca94accf502a43875",
+      "source": "Railway Track fault Detection Updated/Train/Defective/IMG_20201211_113654.jpg",
+      "label": 0,
+      "split": "train"
+    },
+    {
+      "file": "5ba9c7081dc0488df06769c4b2eba2ed162eb3e5cdd64b250f9756f1888e14fa.png",
+      "sha256_pixels": "5ba9c7081dc0488df06769c4b2eba2ed162eb3e5cdd64b250f9756f1888e14fa",
+      "source": "Railway Track fault Detection Updated/Train/Defective/IMG_20201211_113656.jpg",
+      "label": 0,
+      "split": "train"
+    },
+    {
+      "file": "912fac0bd978ec627168df1d23044179ec3c7cfca8654c0b123c2e9366face2a.png",
+      "sha256_pixels": "912fac0bd978ec627168df1d23044179ec3c7cfca8654c0b123c2e9366face2a",
+      "source": "Railway Track fault Detection Updated/Train/Defective/IMG_20201211_114126.jpg",
+      "label": 0,
+      "split": "train"
+    },
+    {
+      "file": "e49efcc2fb3fe62995ad3b4ef0629805d097ced35f4a4f384e5eee6136ed19ad.png",
+      "sha256_pixels": "e49efcc2fb3fe62995ad3b4ef0629805d097ced35f4a4f384e5eee6136ed19ad",
+      "source": "Railway Track fault Detection Updated/Train/Defective/IMG_20201211_121214.jpg",
+      "label": 0,
+      "split": "train"
+    },
+    {
+      "file": "f5883468d4369187c0671bcb4afe32807ef04140fd4bb520074188eeec193cad.png",
+      "sha256_pixels": "f5883468d4369187c0671bcb4afe32807ef04140fd4bb520074188eeec193cad",
+      "source": "Railway Track fault Detection Updated/Train/Defective/JS76994453.jpg",
+      "label": 0,
+      "split": "train"
+    },
+    {
+      "file": "cbc7d94756cc6d49e119d35b13b328413575e580c8c371a00fb9bfc2eef3b6c4.png",
+      "sha256_pixels": "cbc7d94756cc6d49e119d35b13b328413575e580c8c371a00fb9bfc2eef3b6c4",
+      "source": "Railway Track fault Detection Updated/Train/Defective/SN_RDH_GTW_BrokenRail_2.jpg.gallery.jpg",
+      "label": 0,
+      "split": "train"
+    },
+    {
+      "file": "6aedcf309c7374ecdb68857f3ae29464eef0ab6375edbce4edcb4ee2cb5d13ee.png",
+      "sha256_pixels": "6aedcf309c7374ecdb68857f3ae29464eef0ab6375edbce4edcb4ee2cb5d13ee",
+      "source": "Railway Track fault Detection Updated/Train/Defective/Schienenbruch.jpg",
+      "label": 0,
+      "split": "train"
+    },
+    {
+      "file": "91bf99377f863d984293fa4ef2ee8db56f65554a994b31f972508bdcee4fa52f.png",
+      "sha256_pixels": "91bf99377f863d984293fa4ef2ee8db56f65554a994b31f972508bdcee4fa52f",
+      "source": "Railway Track fault Detection Updated/Train/Defective/azer2003120026fbtr.jpg",
+      "label": 0,
+      "split": "train"
+    },
+    {
+      "file": "113690e93d1345bfc84fb95e0b74fa2f24d4f7f053ca690833cdf56370759cd0.png",
+      "sha256_pixels": "113690e93d1345bfc84fb95e0b74fa2f24d4f7f053ca690833cdf56370759cd0",
+      "source": "Railway Track fault Detection Updated/Train/Defective/b17bf671d87cb6c9d6cfcd2aafc8e13a.jpg",
+      "label": 0,
+      "split": "train"
+    },
+    {
+      "file": "90109446f893f9522f62d482f7490a552f6bdef70588bf1849c5e4db35c9019b.png",
+      "sha256_pixels": "90109446f893f9522f62d482f7490a552f6bdef70588bf1849c5e4db35c9019b",
+      "source": "Railway Track fault Detection Updated/Train/Defective/damagetotrackfromcollisionlfb.jpg",
+      "label": 0,
+      "split": "train"
+    },
+    {
+      "file": "7feead6fa9653be3ca313235b11aa135069cfa4573fc56b4ae34a8c0ed6ac1de.png",
+      "sha256_pixels": "7feead6fa9653be3ca313235b11aa135069cfa4573fc56b4ae34a8c0ed6ac1de",
+      "source": "Railway Track fault Detection Updated/Train/Defective/dbb9223f7e652986a00c0dd8d8f1ccf8 (1).jpg",
+      "label": 0,
+      "split": "train"
+    },
+    {
+      "file": "76d20ce791b53a1ad567218a1623513616467105889ed5e933002b99250041d0.png",
+      "sha256_pixels": "76d20ce791b53a1ad567218a1623513616467105889ed5e933002b99250041d0",
+      "source": "Railway Track fault Detection Updated/Train/Defective/download (1).jpeg",
+      "label": 0,
+      "split": "train"
+    },
+    {
+      "file": "79225ed4aa00856f780d0ab75efc5c796f640e0841f142f0677c4b1a295ff54f.png",
+      "sha256_pixels": "79225ed4aa00856f780d0ab75efc5c796f640e0841f142f0677c4b1a295ff54f",
+      "source": "Railway Track fault Detection Updated/Train/Defective/download (2).jpeg",
+      "label": 0,
+      "split": "train"
+    },
+    {
+      "file": "0b926e39bb314a310e41e3370d5449c195c02afc6e4154421d6a4ac2f1f63838.png",
+      "sha256_pixels": "0b926e39bb314a310e41e3370d5449c195c02afc6e4154421d6a4ac2f1f63838",
+      "source": "Railway Track fault Detection Updated/Train/Defective/download (3).jpeg",
+      "label": 0,
+      "split": "train"
+    },
+    {
+      "file": "182eed0d9ae949a53fca4f38462597efa517d382c54c50cb2e5353c7a97bb564.png",
+      "sha256_pixels": "182eed0d9ae949a53fca4f38462597efa517d382c54c50cb2e5353c7a97bb564",
+      "source": "Railway Track fault Detection Updated/Train/Defective/download (4).jpeg",
+      "label": 0,
+      "split": "train"
+    },
+    {
+      "file": "fad47e99f14046e943bc4e8f611f60fa70f556a7162eddd8448354521e8cebba.png",
+      "sha256_pixels": "fad47e99f14046e943bc4e8f611f60fa70f556a7162eddd8448354521e8cebba",
+      "source": "Railway Track fault Detection Updated/Train/Defective/download (5).jpeg",
+      "label": 0,
+      "split": "train"
+    },
+    {
+      "file": "12f23c4535ecf0fc13fc16b625139016891d7ec353216a74f068dd906f2051fa.png",
+      "sha256_pixels": "12f23c4535ecf0fc13fc16b625139016891d7ec353216a74f068dd906f2051fa",
+      "source": "Railway Track fault Detection Updated/Train/Defective/download (6).jpeg",
+      "label": 0,
+      "split": "train"
+    },
+    {
+      "file": "d8f84037d26cd48a08f673030bd00f0886fd9c6a80ee33e01a9a9e9a5fceb581.png",
+      "sha256_pixels": "d8f84037d26cd48a08f673030bd00f0886fd9c6a80ee33e01a9a9e9a5fceb581",
+      "source": "Railway Track fault Detection Updated/Train/Defective/es5n3o3y5cu11.jpg",
+      "label": 0,
+      "split": "train"
+    },
+    {
+      "file": "5cad52977baece89ab7cec46cf044020be8a107d53f6dd3e599d989bd5e35e80.png",
+      "sha256_pixels": "5cad52977baece89ab7cec46cf044020be8a107d53f6dd3e599d989bd5e35e80",
+      "source": "Railway Track fault Detection Updated/Train/Defective/images (1).jpeg",
+      "label": 0,
+      "split": "train"
+    },
+    {
+      "file": "978ef4ac8d024c757b7fe74b18fe050385c332f7affcdef9037f143cd6bbd704.png",
+      "sha256_pixels": "978ef4ac8d024c757b7fe74b18fe050385c332f7affcdef9037f143cd6bbd704",
+      "source": "Railway Track fault Detection Updated/Train/Defective/images (2).jpeg",
+      "label": 0,
+      "split": "train"
+    },
+    {
+      "file": "b28a89451d1159bf1f7cb1bc01ae1ed9841a37fd26b037182a73c95b3d4cd57e.png",
+      "sha256_pixels": "b28a89451d1159bf1f7cb1bc01ae1ed9841a37fd26b037182a73c95b3d4cd57e",
+      "source": "Railway Track fault Detection Updated/Train/Defective/images (3).jpeg",
+      "label": 0,
+      "split": "train"
+    },
+    {
+      "file": "9dae993291381952ce912d25a90595c5229d7bdc4aa873a64c276bab86ce0c8e.png",
+      "sha256_pixels": "9dae993291381952ce912d25a90595c5229d7bdc4aa873a64c276bab86ce0c8e",
+      "source": "Railway Track fault Detection Updated/Train/Defective/images (4).jpeg",
+      "label": 0,
+      "split": "train"
+    },
+    {
+      "file": "2cd2653c62b6f9a288674159deb3cf81ba1ca1c300d7f7391e60f3badb24d617.png",
+      "sha256_pixels": "2cd2653c62b6f9a288674159deb3cf81ba1ca1c300d7f7391e60f3badb24d617",
+      "source": "Railway Track fault Detection Updated/Train/Defective/images (5).jpeg",
+      "label": 0,
+      "split": "train"
+    },
+    {
+      "file": "d46932f0d1c3aa8a803d04bcf6203a2421c3fcac855121de57047bf3e3e85978.png",
+      "sha256_pixels": "d46932f0d1c3aa8a803d04bcf6203a2421c3fcac855121de57047bf3e3e85978",
+      "source": "Railway Track fault Detection Updated/Train/Defective/images (6).jpeg",
+      "label": 0,
+      "split": "train"
+    },
+    {
+      "file": "a5d74ffcee9e7d06bb675965255634bba0aa8dc4a81fb7b244ddc4371e012267.png",
+      "sha256_pixels": "a5d74ffcee9e7d06bb675965255634bba0aa8dc4a81fb7b244ddc4371e012267",
+      "source": "Railway Track fault Detection Updated/Train/Defective/images (7).jpeg",
+      "label": 0,
+      "split": "train"
+    },
+    {
+      "file": "89df802085e955c3399325fc09080a14cf7949410bbfa271fd75f7057a8bfa95.png",
+      "sha256_pixels": "89df802085e955c3399325fc09080a14cf7949410bbfa271fd75f7057a8bfa95",
+      "source": "Railway Track fault Detection Updated/Train/Defective/images (8).jpeg",
+      "label": 0,
+      "split": "train"
+    },
+    {
+      "file": "f4973b095f5c3b8901ba84f425969a44bc595377ff926dad02235c59f768a3b0.png",
+      "sha256_pixels": "f4973b095f5c3b8901ba84f425969a44bc595377ff926dad02235c59f768a3b0",
+      "source": "Railway Track fault Detection Updated/Train/Defective/images.jpeg",
+      "label": 0,
+      "split": "train"
+    },
+    {
+      "file": "67d26c52c4ee367c7b878b1d934a590a2d6a35787f55d8c8aef1bcadf5432dcd.png",
+      "sha256_pixels": "67d26c52c4ee367c7b878b1d934a590a2d6a35787f55d8c8aef1bcadf5432dcd",
+      "source": "Railway Track fault Detection Updated/Train/Defective/img.jpg",
+      "label": 0,
+      "split": "train"
+    },
+    {
+      "file": "0c5d51202277a9ec6876166719397079d77cbc2169276630ea41b06942fa557d.png",
+      "sha256_pixels": "0c5d51202277a9ec6876166719397079d77cbc2169276630ea41b06942fa557d",
+      "source": "Railway Track fault Detection Updated/Train/Defective/pic_1502805739.jpg",
+      "label": 0,
+      "split": "train"
+    },
+    {
+      "file": "04924510d8507a972a1ca8e5ff470ff3e6e944c31fbfb225d685b2f7f550e449.png",
+      "sha256_pixels": "04924510d8507a972a1ca8e5ff470ff3e6e944c31fbfb225d685b2f7f550e449",
+      "source": "Railway Track fault Detection Updated/Train/Defective/ral55.jpg",
+      "label": 0,
+      "split": "train"
+    },
+    {
+      "file": "79e5938452adb876e6efb11f71fac94be2f2d6aaa88830ba39fa4f9e6a640079.png",
+      "sha256_pixels": "79e5938452adb876e6efb11f71fac94be2f2d6aaa88830ba39fa4f9e6a640079",
+      "source": "Railway Track fault Detection Updated/Train/Defective/unnamed.jpg",
+      "label": 0,
+      "split": "train"
+    },
+    {
+      "file": "657cf185dec371cd86f91f2abe729217ddcee2c6bcd7df531cf07716b1164250.png",
+      "sha256_pixels": "657cf185dec371cd86f91f2abe729217ddcee2c6bcd7df531cf07716b1164250",
+      "source": "Railway Track fault Detection Updated/Train/Non defective/IMG_20201114_100021.jpg",
+      "label": 1,
+      "split": "train"
+    },
+    {
+      "file": "07e1080b16a7d1bf1598d58d5d111c2e46e91233845299ceb23233f48de119bd.png",
+      "sha256_pixels": "07e1080b16a7d1bf1598d58d5d111c2e46e91233845299ceb23233f48de119bd",
+      "source": "Railway Track fault Detection Updated/Train/Non defective/IMG_20201114_100032.jpg",
+      "label": 1,
+      "split": "train"
+    },
+    {
+      "file": "83ee3c4381178721af4b61da0459c437236ed1126b7b3a4e096f31ef842c26fe.png",
+      "sha256_pixels": "83ee3c4381178721af4b61da0459c437236ed1126b7b3a4e096f31ef842c26fe",
+      "source": "Railway Track fault Detection Updated/Train/Non defective/IMG_20201114_100044.jpg",
+      "label": 1,
+      "split": "train"
+    },
+    {
+      "file": "4bab8eb055de23ed1aafa7d2ee4a8dd761a244ce57033abdafeb4831d2c4ac68.png",
+      "sha256_pixels": "4bab8eb055de23ed1aafa7d2ee4a8dd761a244ce57033abdafeb4831d2c4ac68",
+      "source": "Railway Track fault Detection Updated/Train/Non defective/IMG_20201114_100046.jpg",
+      "label": 1,
+      "split": "train"
+    },
+    {
+      "file": "f7578f8cb7f61e18a14756bf220fd7ccf1ebeb5f25739564517ca7e49ef1dd76.png",
+      "sha256_pixels": "f7578f8cb7f61e18a14756bf220fd7ccf1ebeb5f25739564517ca7e49ef1dd76",
+      "source": "Railway Track fault Detection Updated/Train/Non defective/IMG_20201114_100050.jpg",
+      "label": 1,
+      "split": "train"
+    },
+    {
+      "file": "6e50ea2b635b3534e84fa9dbc05ada6c7c1bf8d43bea6956a32dfc604ad4a169.png",
+      "sha256_pixels": "6e50ea2b635b3534e84fa9dbc05ada6c7c1bf8d43bea6956a32dfc604ad4a169",
+      "source": "Railway Track fault Detection Updated/Train/Non defective/IMG_20201114_100052.jpg",
+      "label": 1,
+      "split": "train"
+    },
+    {
+      "file": "877d62c6ba8cf43553edccae75077c129990f52d18ac2b87f9db408a23027ae5.png",
+      "sha256_pixels": "877d62c6ba8cf43553edccae75077c129990f52d18ac2b87f9db408a23027ae5",
+      "source": "Railway Track fault Detection Updated/Train/Non defective/IMG_20201114_100101.jpg",
+      "label": 1,
+      "split": "train"
+    },
+    {
+      "file": "1bf4fa214bff6d3659b392438eba15f9afeac8fa35d2f4c7959c5a3d961ee4cf.png",
+      "sha256_pixels": "1bf4fa214bff6d3659b392438eba15f9afeac8fa35d2f4c7959c5a3d961ee4cf",
+      "source": "Railway Track fault Detection Updated/Train/Non defective/IMG_20201114_100107.jpg",
+      "label": 1,
+      "split": "train"
+    },
+    {
+      "file": "53f4bd34d5620e30cb025e40361de62ea67eddd755d2d364b20f142ea33984b3.png",
+      "sha256_pixels": "53f4bd34d5620e30cb025e40361de62ea67eddd755d2d364b20f142ea33984b3",
+      "source": "Railway Track fault Detection Updated/Train/Non defective/IMG_20201114_100110.jpg",
+      "label": 1,
+      "split": "train"
+    },
+    {
+      "file": "5de74e1b62bbef705aeaed812671d9e938961983edc95a4d65bffae87f835ef8.png",
+      "sha256_pixels": "5de74e1b62bbef705aeaed812671d9e938961983edc95a4d65bffae87f835ef8",
+      "source": "Railway Track fault Detection Updated/Train/Non defective/IMG_20201114_100114.jpg",
+      "label": 1,
+      "split": "train"
+    },
+    {
+      "file": "64ed6c53104bcdb957d4dc961f8ad96d123580969789565b63e5d8c87c765fe8.png",
+      "sha256_pixels": "64ed6c53104bcdb957d4dc961f8ad96d123580969789565b63e5d8c87c765fe8",
+      "source": "Railway Track fault Detection Updated/Train/Non defective/IMG_20201114_100130.jpg",
+      "label": 1,
+      "split": "train"
+    },
+    {
+      "file": "bb4cf825186cd6322c5c6a401e81e8282e9ac1a52732e0846bd3b482f3b9fd4f.png",
+      "sha256_pixels": "bb4cf825186cd6322c5c6a401e81e8282e9ac1a52732e0846bd3b482f3b9fd4f",
+      "source": "Railway Track fault Detection Updated/Train/Non defective/IMG_20201114_100134.jpg",
+      "label": 1,
+      "split": "train"
+    },
+    {
+      "file": "e7486729d3cbbcd8a05c79e35573ecd0919f9caafb24c1e9edcd29c09c6e822e.png",
+      "sha256_pixels": "e7486729d3cbbcd8a05c79e35573ecd0919f9caafb24c1e9edcd29c09c6e822e",
+      "source": "Railway Track fault Detection Updated/Train/Non defective/IMG_20201114_100139.jpg",
+      "label": 1,
+      "split": "train"
+    },
+    {
+      "file": "eaa471cb9649380c31a03359a807bf0fedc5d1b653cf330a5f85f3cd7bebc0e2.png",
+      "sha256_pixels": "eaa471cb9649380c31a03359a807bf0fedc5d1b653cf330a5f85f3cd7bebc0e2",
+      "source": "Railway Track fault Detection Updated/Train/Non defective/IMG_20201114_100140.jpg",
+      "label": 1,
+      "split": "train"
+    },
+    {
+      "file": "88c418fa62975bbc707fb9f2cd0c30b72b83936bcec283694e69621a3da7e2b7.png",
+      "sha256_pixels": "88c418fa62975bbc707fb9f2cd0c30b72b83936bcec283694e69621a3da7e2b7",
+      "source": "Railway Track fault Detection Updated/Train/Non defective/IMG_20201114_100215.jpg",
+      "label": 1,
+      "split": "train"
+    },
+    {
+      "file": "d5d528fea834f3860a32270d451352152f099ac41a9d73b9631252e6c29652e0.png",
+      "sha256_pixels": "d5d528fea834f3860a32270d451352152f099ac41a9d73b9631252e6c29652e0",
+      "source": "Railway Track fault Detection Updated/Train/Non defective/IMG_20201114_100230.jpg",
+      "label": 1,
+      "split": "train"
+    },
+    {
+      "file": "091d9a7178fff3bdb5b4b0599f291c4c4c7a69d09e4a58d4453586a917394aeb.png",
+      "sha256_pixels": "091d9a7178fff3bdb5b4b0599f291c4c4c7a69d09e4a58d4453586a917394aeb",
+      "source": "Railway Track fault Detection Updated/Train/Non defective/IMG_20201114_100237.jpg",
+      "label": 1,
+      "split": "train"
+    },
+    {
+      "file": "7879c543dd28b61fc4673576444b028aa593c1b7421a4d407b54fc3c352ed744.png",
+      "sha256_pixels": "7879c543dd28b61fc4673576444b028aa593c1b7421a4d407b54fc3c352ed744",
+      "source": "Railway Track fault Detection Updated/Train/Non defective/IMG_20201114_100242.jpg",
+      "label": 1,
+      "split": "train"
+    },
+    {
+      "file": "85eb43aae7cc36ebefe3dd0842cd156fea8b1febef3b2f3903fa3e39203e91eb.png",
+      "sha256_pixels": "85eb43aae7cc36ebefe3dd0842cd156fea8b1febef3b2f3903fa3e39203e91eb",
+      "source": "Railway Track fault Detection Updated/Train/Non defective/IMG_20201114_100245.jpg",
+      "label": 1,
+      "split": "train"
+    },
+    {
+      "file": "d0004667ba3ec3c4fbede082f06ba7ec2c9a4945b6d9137b8879f10891e60430.png",
+      "sha256_pixels": "d0004667ba3ec3c4fbede082f06ba7ec2c9a4945b6d9137b8879f10891e60430",
+      "source": "Railway Track fault Detection Updated/Train/Non defective/IMG_20201114_100248.jpg",
+      "label": 1,
+      "split": "train"
+    },
+    {
+      "file": "1c21e13f8c8b4d869af1ce25040fb624ef4f39d0275bbb017af5ecc3ff165cbe.png",
+      "sha256_pixels": "1c21e13f8c8b4d869af1ce25040fb624ef4f39d0275bbb017af5ecc3ff165cbe",
+      "source": "Railway Track fault Detection Updated/Train/Non defective/IMG_20201114_100250.jpg",
+      "label": 1,
+      "split": "train"
+    },
+    {
+      "file": "d08d5ee94b3344c6dcdec5e3f65a92906689dc8ab05b9512113b65a807b285ed.png",
+      "sha256_pixels": "d08d5ee94b3344c6dcdec5e3f65a92906689dc8ab05b9512113b65a807b285ed",
+      "source": "Railway Track fault Detection Updated/Train/Non defective/IMG_20201114_100259.jpg",
+      "label": 1,
+      "split": "train"
+    },
+    {
+      "file": "5cb345c90cac4923975e1d78116649ec074306e9c16824473873c2cec5935b5e.png",
+      "sha256_pixels": "5cb345c90cac4923975e1d78116649ec074306e9c16824473873c2cec5935b5e",
+      "source": "Railway Track fault Detection Updated/Train/Non defective/IMG_20201114_100301.jpg",
+      "label": 1,
+      "split": "train"
+    },
+    {
+      "file": "d026d8d0e238b1343f6c1c25b1b26118002db781945d6699734a0b152f79d1a6.png",
+      "sha256_pixels": "d026d8d0e238b1343f6c1c25b1b26118002db781945d6699734a0b152f79d1a6",
+      "source": "Railway Track fault Detection Updated/Train/Non defective/IMG_20201114_100303.jpg",
+      "label": 1,
+      "split": "train"
+    },
+    {
+      "file": "5078488d9635d85e2e9f3881ad487762b3c585972208e98bc750f2626238b376.png",
+      "sha256_pixels": "5078488d9635d85e2e9f3881ad487762b3c585972208e98bc750f2626238b376",
+      "source": "Railway Track fault Detection Updated/Train/Non defective/IMG_20201114_100310.jpg",
+      "label": 1,
+      "split": "train"
+    },
+    {
+      "file": "d0dd6de57329cf92dca807a5663779631a4f209d5afeb37dd7c3de47e77a86fa.png",
+      "sha256_pixels": "d0dd6de57329cf92dca807a5663779631a4f209d5afeb37dd7c3de47e77a86fa",
+      "source": "Railway Track fault Detection Updated/Train/Non defective/IMG_20201114_100315.jpg",
+      "label": 1,
+      "split": "train"
+    },
+    {
+      "file": "0c85d5650a24231420d51c5aad5eea3afc77fb29058e157a18d9d62586e23031.png",
+      "sha256_pixels": "0c85d5650a24231420d51c5aad5eea3afc77fb29058e157a18d9d62586e23031",
+      "source": "Railway Track fault Detection Updated/Train/Non defective/IMG_20201114_100324.jpg",
+      "label": 1,
+      "split": "train"
+    },
+    {
+      "file": "cc130da261165adb034bdc702e6f03661db0ca1819bf1661243096711ca7ccc9.png",
+      "sha256_pixels": "cc130da261165adb034bdc702e6f03661db0ca1819bf1661243096711ca7ccc9",
+      "source": "Railway Track fault Detection Updated/Train/Non defective/IMG_20201114_100325.jpg",
+      "label": 1,
+      "split": "train"
+    },
+    {
+      "file": "71d3836ff47297cb28254530387e0fe808555379d1e20a2020eff9af6d189a97.png",
+      "sha256_pixels": "71d3836ff47297cb28254530387e0fe808555379d1e20a2020eff9af6d189a97",
+      "source": "Railway Track fault Detection Updated/Train/Non defective/IMG_20201114_100328.jpg",
+      "label": 1,
+      "split": "train"
+    },
+    {
+      "file": "1f8abe275eba56783235367175b987e63c90b7ce9ab6b04f8beeadf401d5aa0a.png",
+      "sha256_pixels": "1f8abe275eba56783235367175b987e63c90b7ce9ab6b04f8beeadf401d5aa0a",
+      "source": "Railway Track fault Detection Updated/Train/Non defective/IMG_20201114_100330.jpg",
+      "label": 1,
+      "split": "train"
+    },
+    {
+      "file": "7ff9e05ccfba6d07d96adcddc0581d1b8fcfd2ef3780b51a57f8d822cbf7bde1.png",
+      "sha256_pixels": "7ff9e05ccfba6d07d96adcddc0581d1b8fcfd2ef3780b51a57f8d822cbf7bde1",
+      "source": "Railway Track fault Detection Updated/Train/Non defective/IMG_20201114_100346.jpg",
+      "label": 1,
+      "split": "train"
+    },
+    {
+      "file": "32d176fd28f13bcd94bc766d42026a9c8b150b8ca255e95b9437cc39f245d1f9.png",
+      "sha256_pixels": "32d176fd28f13bcd94bc766d42026a9c8b150b8ca255e95b9437cc39f245d1f9",
+      "source": "Railway Track fault Detection Updated/Train/Non defective/IMG_20201114_100356.jpg",
+      "label": 1,
+      "split": "train"
+    },
+    {
+      "file": "51d52761a8b5f3065b9369cc5e60ec775bdf037ca93073fd1a17dcf3653a1478.png",
+      "sha256_pixels": "51d52761a8b5f3065b9369cc5e60ec775bdf037ca93073fd1a17dcf3653a1478",
+      "source": "Railway Track fault Detection Updated/Train/Non defective/IMG_20201114_100406.jpg",
+      "label": 1,
+      "split": "train"
+    },
+    {
+      "file": "61880cfbf60bd1b6572dc7a175ec5d23a63099e038ff4ee49c4e2e48c5ea65ee.png",
+      "sha256_pixels": "61880cfbf60bd1b6572dc7a175ec5d23a63099e038ff4ee49c4e2e48c5ea65ee",
+      "source": "Railway Track fault Detection Updated/Train/Non defective/IMG_20201114_100407.jpg",
+      "label": 1,
+      "split": "train"
+    },
+    {
+      "file": "d18c98f8bbc7296722780998166693e42fabd7f5686b77b9714eccdb36badcf6.png",
+      "sha256_pixels": "d18c98f8bbc7296722780998166693e42fabd7f5686b77b9714eccdb36badcf6",
+      "source": "Railway Track fault Detection Updated/Train/Non defective/IMG_20201114_100412.jpg",
+      "label": 1,
+      "split": "train"
+    },
+    {
+      "file": "73fa0b348062bdb99f195dbf620f41a95ec853d6bcb946f7539fc903c3ed1e28.png",
+      "sha256_pixels": "73fa0b348062bdb99f195dbf620f41a95ec853d6bcb946f7539fc903c3ed1e28",
+      "source": "Railway Track fault Detection Updated/Train/Non defective/IMG_20201114_100416.jpg",
+      "label": 1,
+      "split": "train"
+    },
+    {
+      "file": "d30d87441f2b7cb448e64ebe6f1e413b93a604f212c18d0802d034e0feb6c777.png",
+      "sha256_pixels": "d30d87441f2b7cb448e64ebe6f1e413b93a604f212c18d0802d034e0feb6c777",
+      "source": "Railway Track fault Detection Updated/Train/Non defective/IMG_20201114_100421.jpg",
+      "label": 1,
+      "split": "train"
+    },
+    {
+      "file": "8215c8a9c668cdc6d98762b4bfd045c6583ba572caf42416df72d04e43a5c876.png",
+      "sha256_pixels": "8215c8a9c668cdc6d98762b4bfd045c6583ba572caf42416df72d04e43a5c876",
+      "source": "Railway Track fault Detection Updated/Train/Non defective/IMG_20201114_100428.jpg",
+      "label": 1,
+      "split": "train"
+    },
+    {
+      "file": "f5a2d83a9f5a7ded461579e4b8ce39a4399cabd31b81f0c40a706c51aaea622c.png",
+      "sha256_pixels": "f5a2d83a9f5a7ded461579e4b8ce39a4399cabd31b81f0c40a706c51aaea622c",
+      "source": "Railway Track fault Detection Updated/Train/Non defective/IMG_20201114_100437.jpg",
+      "label": 1,
+      "split": "train"
+    },
+    {
+      "file": "62d0cf88cede5bad3e43a125d5101bbfcf64d9bd81f9f829660c15142c9b4024.png",
+      "sha256_pixels": "62d0cf88cede5bad3e43a125d5101bbfcf64d9bd81f9f829660c15142c9b4024",
+      "source": "Railway Track fault Detection Updated/Train/Non defective/IMG_20201114_100447.jpg",
+      "label": 1,
+      "split": "train"
+    },
+    {
+      "file": "5a928082801a058fc54b10cf11bef5bfa3df217e2632e750ba2894e8c45959c2.png",
+      "sha256_pixels": "5a928082801a058fc54b10cf11bef5bfa3df217e2632e750ba2894e8c45959c2",
+      "source": "Railway Track fault Detection Updated/Train/Non defective/IMG_20201114_100549.jpg",
+      "label": 1,
+      "split": "train"
+    },
+    {
+      "file": "b65892e99e79efc1fedf899ac3298c5f0b60e39ebd4c8b1cb207b5aae603a2fb.png",
+      "sha256_pixels": "b65892e99e79efc1fedf899ac3298c5f0b60e39ebd4c8b1cb207b5aae603a2fb",
+      "source": "Railway Track fault Detection Updated/Train/Non defective/IMG_20201114_100756.jpg",
+      "label": 1,
+      "split": "train"
+    },
+    {
+      "file": "4dbe06ea7c81f020d6090c9bae9607a3582dadec826c7b2096bfb913f00173e2.png",
+      "sha256_pixels": "4dbe06ea7c81f020d6090c9bae9607a3582dadec826c7b2096bfb913f00173e2",
+      "source": "Railway Track fault Detection Updated/Train/Non defective/IMG_20201114_100805.jpg",
+      "label": 1,
+      "split": "train"
+    },
+    {
+      "file": "b0f245f1ac21ab586a0392ecf17b750e640ed47c4b7edf109001362a6f0e867f.png",
+      "sha256_pixels": "b0f245f1ac21ab586a0392ecf17b750e640ed47c4b7edf109001362a6f0e867f",
+      "source": "Railway Track fault Detection Updated/Train/Non defective/IMG_20201114_100808.jpg",
+      "label": 1,
+      "split": "train"
+    },
+    {
+      "file": "da68e093fdaf090c794a945a5640f13865b07766a17edf3cc88344396440071b.png",
+      "sha256_pixels": "da68e093fdaf090c794a945a5640f13865b07766a17edf3cc88344396440071b",
+      "source": "Railway Track fault Detection Updated/Train/Non defective/IMG_20201114_100829.jpg",
+      "label": 1,
+      "split": "train"
+    },
+    {
+      "file": "97fd3b53eba31277ac0a7a3eca504a6996f102a0e0fa381b1c854a2163b3fa18.png",
+      "sha256_pixels": "97fd3b53eba31277ac0a7a3eca504a6996f102a0e0fa381b1c854a2163b3fa18",
+      "source": "Railway Track fault Detection Updated/Train/Non defective/IMG_20201114_100831.jpg",
+      "label": 1,
+      "split": "train"
+    },
+    {
+      "file": "554c42d507351bb967236fa1dca6b5c665e1ca7123aedb2314c4b5292d8c11eb.png",
+      "sha256_pixels": "554c42d507351bb967236fa1dca6b5c665e1ca7123aedb2314c4b5292d8c11eb",
+      "source": "Railway Track fault Detection Updated/Train/Non defective/IMG_20201114_100840.jpg",
+      "label": 1,
+      "split": "train"
+    },
+    {
+      "file": "95ba4de25b6a6f31d692e646ebe9555606ca13041d38789cb1f592207f6e16b5.png",
+      "sha256_pixels": "95ba4de25b6a6f31d692e646ebe9555606ca13041d38789cb1f592207f6e16b5",
+      "source": "Railway Track fault Detection Updated/Train/Non defective/IMG_20201114_100849.jpg",
+      "label": 1,
+      "split": "train"
+    },
+    {
+      "file": "934206d99f3acb4e977e00cf77592ffc08a1213b1b883e99a6fffe27f5695ca9.png",
+      "sha256_pixels": "934206d99f3acb4e977e00cf77592ffc08a1213b1b883e99a6fffe27f5695ca9",
+      "source": "Railway Track fault Detection Updated/Train/Non defective/IMG_20201114_100853.jpg",
+      "label": 1,
+      "split": "train"
+    },
+    {
+      "file": "36eaa4ecb4f2515ae98fe0a06d69c3ec8c69c84e4f4c10593e1efaabbc725994.png",
+      "sha256_pixels": "36eaa4ecb4f2515ae98fe0a06d69c3ec8c69c84e4f4c10593e1efaabbc725994",
+      "source": "Railway Track fault Detection Updated/Train/Non defective/IMG_20201114_100904.jpg",
+      "label": 1,
+      "split": "train"
+    },
+    {
+      "file": "a47e383d981cbed945d0d89942fc13743a47eafe65ddd8a455d1ccf5924ac1b2.png",
+      "sha256_pixels": "a47e383d981cbed945d0d89942fc13743a47eafe65ddd8a455d1ccf5924ac1b2",
+      "source": "Railway Track fault Detection Updated/Train/Non defective/IMG_20201114_100926.jpg",
+      "label": 1,
+      "split": "train"
+    },
+    {
+      "file": "8bb461342d9d0d986ad3e442ef07ffb1245bb84111fb8b9533f2aa9412fbb98e.png",
+      "sha256_pixels": "8bb461342d9d0d986ad3e442ef07ffb1245bb84111fb8b9533f2aa9412fbb98e",
+      "source": "Railway Track fault Detection Updated/Train/Non defective/IMG_20201114_101019.jpg",
+      "label": 1,
+      "split": "train"
+    },
+    {
+      "file": "ca7e79a5f41b9092f577ac8771c11a60c9c3624fc3b5a3f28ae33d148d3b23f0.png",
+      "sha256_pixels": "ca7e79a5f41b9092f577ac8771c11a60c9c3624fc3b5a3f28ae33d148d3b23f0",
+      "source": "Railway Track fault Detection Updated/Train/Non defective/IMG_20201114_101027.jpg",
+      "label": 1,
+      "split": "train"
+    },
+    {
+      "file": "4d7b6f982213c772d928897c578da1b471eeac165dec3a68968ef04843f2ef1f.png",
+      "sha256_pixels": "4d7b6f982213c772d928897c578da1b471eeac165dec3a68968ef04843f2ef1f",
+      "source": "Railway Track fault Detection Updated/Train/Non defective/IMG_20201114_101031.jpg",
+      "label": 1,
+      "split": "train"
+    },
+    {
+      "file": "ae34148655216a897ba0c006921e5d75cd3229f497e6b0090399345ca85de06b.png",
+      "sha256_pixels": "ae34148655216a897ba0c006921e5d75cd3229f497e6b0090399345ca85de06b",
+      "source": "Railway Track fault Detection Updated/Train/Non defective/IMG_20201114_101039.jpg",
+      "label": 1,
+      "split": "train"
+    },
+    {
+      "file": "6c4d55e0212dd297c4007180ae40ce110fe529c46dfec7b2ceb05ea1eb405cd5.png",
+      "sha256_pixels": "6c4d55e0212dd297c4007180ae40ce110fe529c46dfec7b2ceb05ea1eb405cd5",
+      "source": "Railway Track fault Detection Updated/Train/Non defective/IMG_20201114_101046.jpg",
+      "label": 1,
+      "split": "train"
+    },
+    {
+      "file": "2d76257fb9f612fe4a26f16d55d290333c151951ac5ef95366f62f7de9b17474.png",
+      "sha256_pixels": "2d76257fb9f612fe4a26f16d55d290333c151951ac5ef95366f62f7de9b17474",
+      "source": "Railway Track fault Detection Updated/Train/Non defective/IMG_20201114_101453.jpg",
+      "label": 1,
+      "split": "train"
+    },
+    {
+      "file": "04bb86a9da7813bcb2ff37e76532f98e5ba71e984cc4fe755bb0446ad186462b.png",
+      "sha256_pixels": "04bb86a9da7813bcb2ff37e76532f98e5ba71e984cc4fe755bb0446ad186462b",
+      "source": "Railway Track fault Detection Updated/Train/Non defective/IMG_20201114_101457.jpg",
+      "label": 1,
+      "split": "train"
+    },
+    {
+      "file": "3db233de9b2ff65792bf5e7ffe4811279b5c057fff6b36dc22213f0f2802f7ce.png",
+      "sha256_pixels": "3db233de9b2ff65792bf5e7ffe4811279b5c057fff6b36dc22213f0f2802f7ce",
+      "source": "Railway Track fault Detection Updated/Train/Non defective/IMG_20201114_101500.jpg",
+      "label": 1,
+      "split": "train"
+    },
+    {
+      "file": "73845cacd6d1b415e28d28b487931c86ef7a4471a01b7a8d10ad1d373427c720.png",
+      "sha256_pixels": "73845cacd6d1b415e28d28b487931c86ef7a4471a01b7a8d10ad1d373427c720",
+      "source": "Railway Track fault Detection Updated/Train/Non defective/IMG_20201114_101512.jpg",
+      "label": 1,
+      "split": "train"
+    },
+    {
+      "file": "91bd6aab2e12d0b22de92a9aee651525215038af51ce494bef10904cb6aa6f89.png",
+      "sha256_pixels": "91bd6aab2e12d0b22de92a9aee651525215038af51ce494bef10904cb6aa6f89",
+      "source": "Railway Track fault Detection Updated/Train/Non defective/IMG_20201114_101519.jpg",
+      "label": 1,
+      "split": "train"
+    },
+    {
+      "file": "3fd5a52d017546aaf7bcdff3cb8ce07b2a9c84db421eb8b277546000cd571038.png",
+      "sha256_pixels": "3fd5a52d017546aaf7bcdff3cb8ce07b2a9c84db421eb8b277546000cd571038",
+      "source": "Railway Track fault Detection Updated/Train/Non defective/IMG_20201114_101529.jpg",
+      "label": 1,
+      "split": "train"
+    },
+    {
+      "file": "6c5d74fbc137596369f24dd65e046f1ad8341e768f27c67ca72765fe9a79a707.png",
+      "sha256_pixels": "6c5d74fbc137596369f24dd65e046f1ad8341e768f27c67ca72765fe9a79a707",
+      "source": "Railway Track fault Detection Updated/Train/Non defective/IMG_20201114_101552.jpg",
+      "label": 1,
+      "split": "train"
+    },
+    {
+      "file": "6d136753958eab7839075a270005fcc2c8d91ce9f6fbe9c0c46e33273eab30ea.png",
+      "sha256_pixels": "6d136753958eab7839075a270005fcc2c8d91ce9f6fbe9c0c46e33273eab30ea",
+      "source": "Railway Track fault Detection Updated/Train/Non defective/IMG_20201114_101556.jpg",
+      "label": 1,
+      "split": "train"
+    },
+    {
+      "file": "42560a330b2ed5f6f617e0e3eb2ecffa70eb441cfa0cb5d64195bac84873a0a2.png",
+      "sha256_pixels": "42560a330b2ed5f6f617e0e3eb2ecffa70eb441cfa0cb5d64195bac84873a0a2",
+      "source": "Railway Track fault Detection Updated/Train/Non defective/IMG_20201114_101559.jpg",
+      "label": 1,
+      "split": "train"
+    },
+    {
+      "file": "2ed4e7ae7db823f722150ec0c931a429f5498914373d63371a2bf2644ff4c2bc.png",
+      "sha256_pixels": "2ed4e7ae7db823f722150ec0c931a429f5498914373d63371a2bf2644ff4c2bc",
+      "source": "Railway Track fault Detection Updated/Train/Non defective/IMG_20201114_101601.jpg",
+      "label": 1,
+      "split": "train"
+    },
+    {
+      "file": "7d03169c4cfed52047d948f5db481f02d8164d48b0b2699fd3f4932e81e1a651.png",
+      "sha256_pixels": "7d03169c4cfed52047d948f5db481f02d8164d48b0b2699fd3f4932e81e1a651",
+      "source": "Railway Track fault Detection Updated/Train/Non defective/IMG_20201114_101643.jpg",
+      "label": 1,
+      "split": "train"
+    },
+    {
+      "file": "16ffaad41b87dcaece019bea579b74f27d3b2b93da428356e55f0e939b93a386.png",
+      "sha256_pixels": "16ffaad41b87dcaece019bea579b74f27d3b2b93da428356e55f0e939b93a386",
+      "source": "Railway Track fault Detection Updated/Train/Non defective/IMG_20201114_101645.jpg",
+      "label": 1,
+      "split": "train"
+    },
+    {
+      "file": "3f39475a6b3938cb8e706fd9ace5105d0ddeac566c4ab50b35d1eaf7f7bd5735.png",
+      "sha256_pixels": "3f39475a6b3938cb8e706fd9ace5105d0ddeac566c4ab50b35d1eaf7f7bd5735",
+      "source": "Railway Track fault Detection Updated/Train/Non defective/IMG_20201114_101651.jpg",
+      "label": 1,
+      "split": "train"
+    },
+    {
+      "file": "87022237d377251312dcac77896401402487767a02ec6978dfba2a66b0fd278c.png",
+      "sha256_pixels": "87022237d377251312dcac77896401402487767a02ec6978dfba2a66b0fd278c",
+      "source": "Railway Track fault Detection Updated/Train/Non defective/IMG_20201114_101708.jpg",
+      "label": 1,
+      "split": "train"
+    },
+    {
+      "file": "74837f15b90ee3cd9effd95696204d0592069ab6ef25cb953dbb9c9982e287e9.png",
+      "sha256_pixels": "74837f15b90ee3cd9effd95696204d0592069ab6ef25cb953dbb9c9982e287e9",
+      "source": "Railway Track fault Detection Updated/Train/Non defective/IMG_20201114_101720.jpg",
+      "label": 1,
+      "split": "train"
+    },
+    {
+      "file": "52f2f47177675f5ce1b7095696bc222d0fa742d65a2b5883ea6495b36bf9b516.png",
+      "sha256_pixels": "52f2f47177675f5ce1b7095696bc222d0fa742d65a2b5883ea6495b36bf9b516",
+      "source": "Railway Track fault Detection Updated/Train/Non defective/IMG_20201114_101724.jpg",
+      "label": 1,
+      "split": "train"
+    },
+    {
+      "file": "9d1699e74382e76dc656ba9bfc5ffd6cc2a56725e166b7b55f48b9b92bec933a.png",
+      "sha256_pixels": "9d1699e74382e76dc656ba9bfc5ffd6cc2a56725e166b7b55f48b9b92bec933a",
+      "source": "Railway Track fault Detection Updated/Train/Non defective/IMG_20201114_101747.jpg",
+      "label": 1,
+      "split": "train"
+    },
+    {
+      "file": "d44698da701e1b1e44e002f220dd1901a6c51cfc8a006272a343209095820dd6.png",
+      "sha256_pixels": "d44698da701e1b1e44e002f220dd1901a6c51cfc8a006272a343209095820dd6",
+      "source": "Railway Track fault Detection Updated/Train/Non defective/IMG_20201114_101755.jpg",
+      "label": 1,
+      "split": "train"
+    },
+    {
+      "file": "508ddc6710dc9e1af129608ab4dd5e8543f7b0984f15ae944f1428d285c41441.png",
+      "sha256_pixels": "508ddc6710dc9e1af129608ab4dd5e8543f7b0984f15ae944f1428d285c41441",
+      "source": "Railway Track fault Detection Updated/Train/Non defective/IMG_20201114_101759.jpg",
+      "label": 1,
+      "split": "train"
+    },
+    {
+      "file": "db06defe6b93f4aef8e9eaa83ef010b6727b06857f8413f3d2fe729993c9c8dc.png",
+      "sha256_pixels": "db06defe6b93f4aef8e9eaa83ef010b6727b06857f8413f3d2fe729993c9c8dc",
+      "source": "Railway Track fault Detection Updated/Train/Non defective/IMG_20201114_101801.jpg",
+      "label": 1,
+      "split": "train"
+    },
+    {
+      "file": "e724a52af94c3d8216944df1e8a37f821e70e78c1c47215c02c308a127d9c054.png",
+      "sha256_pixels": "e724a52af94c3d8216944df1e8a37f821e70e78c1c47215c02c308a127d9c054",
+      "source": "Railway Track fault Detection Updated/Train/Non defective/IMG_20201114_101807.jpg",
+      "label": 1,
+      "split": "train"
+    },
+    {
+      "file": "9d7af45e44313aaa0d31e4b0c00e777f5944586a86162376427dfce8aa7393e5.png",
+      "sha256_pixels": "9d7af45e44313aaa0d31e4b0c00e777f5944586a86162376427dfce8aa7393e5",
+      "source": "Railway Track fault Detection Updated/Train/Non defective/IMG_20201114_101814.jpg",
+      "label": 1,
+      "split": "train"
+    },
+    {
+      "file": "ec9c05695424621c0752e344dedb5cad5a3304edf4cbc51fb0a06272eaaccca3.png",
+      "sha256_pixels": "ec9c05695424621c0752e344dedb5cad5a3304edf4cbc51fb0a06272eaaccca3",
+      "source": "Railway Track fault Detection Updated/Train/Non defective/IMG_20201114_101842.jpg",
+      "label": 1,
+      "split": "train"
+    },
+    {
+      "file": "1bf73e654e4b391da9fc03841d9a9ebaa76c89fc629fd07e51ed811d86bd492c.png",
+      "sha256_pixels": "1bf73e654e4b391da9fc03841d9a9ebaa76c89fc629fd07e51ed811d86bd492c",
+      "source": "Railway Track fault Detection Updated/Train/Non defective/IMG_20201114_101844.jpg",
+      "label": 1,
+      "split": "train"
+    },
+    {
+      "file": "c03eb3309971ee9a868811ddedb7a4024938b58bf83103ffd92df1ac8bb8c6f3.png",
+      "sha256_pixels": "c03eb3309971ee9a868811ddedb7a4024938b58bf83103ffd92df1ac8bb8c6f3",
+      "source": "Railway Track fault Detection Updated/Train/Non defective/IMG_20201114_101847.jpg",
+      "label": 1,
+      "split": "train"
+    },
+    {
+      "file": "95ca4f1237c902e9414261191ae608592880c0f6234091d9ff9202965130ddae.png",
+      "sha256_pixels": "95ca4f1237c902e9414261191ae608592880c0f6234091d9ff9202965130ddae",
+      "source": "Railway Track fault Detection Updated/Train/Non defective/IMG_20201114_101857.jpg",
+      "label": 1,
+      "split": "train"
+    },
+    {
+      "file": "0c3c381e399c312bf835d20350224d4ebfb654043504ec40a716cceefaa86ec9.png",
+      "sha256_pixels": "0c3c381e399c312bf835d20350224d4ebfb654043504ec40a716cceefaa86ec9",
+      "source": "Railway Track fault Detection Updated/Train/Non defective/IMG_20201114_101859.jpg",
+      "label": 1,
+      "split": "train"
+    },
+    {
+      "file": "89130ec9efe9e97b3a096bfd2de77e7dad93a886a265f4b67bde31adfc681ddc.png",
+      "sha256_pixels": "89130ec9efe9e97b3a096bfd2de77e7dad93a886a265f4b67bde31adfc681ddc",
+      "source": "Railway Track fault Detection Updated/Train/Non defective/IMG_20201114_101909.jpg",
+      "label": 1,
+      "split": "train"
+    },
+    {
+      "file": "e1740727ac14844b5286be8f45de964d3c5b2a324fd5817089aecf6cb3978fad.png",
+      "sha256_pixels": "e1740727ac14844b5286be8f45de964d3c5b2a324fd5817089aecf6cb3978fad",
+      "source": "Railway Track fault Detection Updated/Train/Non defective/IMG_20201114_101926.jpg",
+      "label": 1,
+      "split": "train"
+    },
+    {
+      "file": "56f596fa800b6837a80e9be5f8be3b941a037dac9cab69d794ef4f36288e6574.png",
+      "sha256_pixels": "56f596fa800b6837a80e9be5f8be3b941a037dac9cab69d794ef4f36288e6574",
+      "source": "Railway Track fault Detection Updated/Train/Non defective/IMG_20201114_102051.jpg",
+      "label": 1,
+      "split": "train"
+    },
+    {
+      "file": "7599304b8850df0ee0edcce1184ae371ebfe3cdb2359fa5405fb603a0077cdde.png",
+      "sha256_pixels": "7599304b8850df0ee0edcce1184ae371ebfe3cdb2359fa5405fb603a0077cdde",
+      "source": "Railway Track fault Detection Updated/Train/Non defective/IMG_20201114_102110.jpg",
+      "label": 1,
+      "split": "train"
+    },
+    {
+      "file": "abb0b2ca9c725a279af3d9dfd4591ea81b99469faef77a78a3b22ba7b7ef676c.png",
+      "sha256_pixels": "abb0b2ca9c725a279af3d9dfd4591ea81b99469faef77a78a3b22ba7b7ef676c",
+      "source": "Railway Track fault Detection Updated/Train/Non defective/IMG_20201114_102114.jpg",
+      "label": 1,
+      "split": "train"
+    },
+    {
+      "file": "efa063f4b144b730607bc142629386907a2c895f9b858f3833dea5fc85b899bc.png",
+      "sha256_pixels": "efa063f4b144b730607bc142629386907a2c895f9b858f3833dea5fc85b899bc",
+      "source": "Railway Track fault Detection Updated/Train/Non defective/IMG_20201114_102117.jpg",
+      "label": 1,
+      "split": "train"
+    },
+    {
+      "file": "8ceebee8c7ef97451cff64b1f17765ed4fee8360375d4e8665f7eab97d634ffd.png",
+      "sha256_pixels": "8ceebee8c7ef97451cff64b1f17765ed4fee8360375d4e8665f7eab97d634ffd",
+      "source": "Railway Track fault Detection Updated/Train/Non defective/IMG_20201114_102258.jpg",
+      "label": 1,
+      "split": "train"
+    },
+    {
+      "file": "049d92fe82703d9c96347d2eb041d73b6e472b33af4cc0da6fa7510de5c179d0.png",
+      "sha256_pixels": "049d92fe82703d9c96347d2eb041d73b6e472b33af4cc0da6fa7510de5c179d0",
+      "source": "Railway Track fault Detection Updated/Train/Non defective/IMG_20201114_102300.jpg",
+      "label": 1,
+      "split": "train"
+    },
+    {
+      "file": "f15b8f7c1b7b19c6bac826d64fe3f5e2199e98f56443850911158318d12543a7.png",
+      "sha256_pixels": "f15b8f7c1b7b19c6bac826d64fe3f5e2199e98f56443850911158318d12543a7",
+      "source": "Railway Track fault Detection Updated/Train/Non defective/IMG_20201114_102303.jpg",
+      "label": 1,
+      "split": "train"
+    },
+    {
+      "file": "a156ce39944af6942a58e9340ee303081db434ff8edcfff1a41e25fb315e990e.png",
+      "sha256_pixels": "a156ce39944af6942a58e9340ee303081db434ff8edcfff1a41e25fb315e990e",
+      "source": "Railway Track fault Detection Updated/Train/Non defective/IMG_20201114_102309.jpg",
+      "label": 1,
+      "split": "train"
+    },
+    {
+      "file": "a615215789ccdc7cd82e9ec233c3387859cdbff84025f21c6f3f663d63e56a54.png",
+      "sha256_pixels": "a615215789ccdc7cd82e9ec233c3387859cdbff84025f21c6f3f663d63e56a54",
+      "source": "Railway Track fault Detection Updated/Train/Non defective/IMG_20201114_102311.jpg",
+      "label": 1,
+      "split": "train"
+    },
+    {
+      "file": "1e6b322ec0c4d2e93a248c3e2661101b0ef70ffe4a957a6e9d431f238a1774e4.png",
+      "sha256_pixels": "1e6b322ec0c4d2e93a248c3e2661101b0ef70ffe4a957a6e9d431f238a1774e4",
+      "source": "Railway Track fault Detection Updated/Train/Non defective/IMG_20201114_102319.jpg",
+      "label": 1,
+      "split": "train"
+    },
+    {
+      "file": "8cacd38ecb61f734f6ab57153749e3d4067f29d54712021c254a6e0e45daa19b.png",
+      "sha256_pixels": "8cacd38ecb61f734f6ab57153749e3d4067f29d54712021c254a6e0e45daa19b",
+      "source": "Railway Track fault Detection Updated/Train/Non defective/IMG_20201114_102321.jpg",
+      "label": 1,
+      "split": "train"
+    },
+    {
+      "file": "04845d8ae4742c2c3b27ad98699c132a6a583ccc1baa7882daab764614835b04.png",
+      "sha256_pixels": "04845d8ae4742c2c3b27ad98699c132a6a583ccc1baa7882daab764614835b04",
+      "source": "Railway Track fault Detection Updated/Train/Non defective/IMG_20201114_102353.jpg",
+      "label": 1,
+      "split": "train"
+    },
+    {
+      "file": "87bcad965b2f4adf76cdf10f5551e3552a22bd3cc59cd37edde5674328548de9.png",
+      "sha256_pixels": "87bcad965b2f4adf76cdf10f5551e3552a22bd3cc59cd37edde5674328548de9",
+      "source": "Railway Track fault Detection Updated/Train/Non defective/IMG_20201114_102404.jpg",
+      "label": 1,
+      "split": "train"
+    },
+    {
+      "file": "8234477b3db20f38b54d0eaead817ec25fa45b7a154fce81c36cd4a3c8f5778a.png",
+      "sha256_pixels": "8234477b3db20f38b54d0eaead817ec25fa45b7a154fce81c36cd4a3c8f5778a",
+      "source": "Railway Track fault Detection Updated/Train/Non defective/IMG_20201114_102410.jpg",
+      "label": 1,
+      "split": "train"
+    },
+    {
+      "file": "e0867be10ae2f358fc08650659ebe5e7387b6c233cbb653b7c507443dfdd42e9.png",
+      "sha256_pixels": "e0867be10ae2f358fc08650659ebe5e7387b6c233cbb653b7c507443dfdd42e9",
+      "source": "Railway Track fault Detection Updated/Train/Non defective/IMG_20201114_102429.jpg",
+      "label": 1,
+      "split": "train"
+    },
+    {
+      "file": "dd68f9a84d97e7f3ce9bfb6f6bc1fa7b386f0db370506200027f54ccbe50a3ad.png",
+      "sha256_pixels": "dd68f9a84d97e7f3ce9bfb6f6bc1fa7b386f0db370506200027f54ccbe50a3ad",
+      "source": "Railway Track fault Detection Updated/Train/Non defective/IMG_20201114_102441.jpg",
+      "label": 1,
+      "split": "train"
+    },
+    {
+      "file": "033b68fd06d47c984d4f98d14b3c4d0039a0c004a3c47c7dda15e81ae49e08c4.png",
+      "sha256_pixels": "033b68fd06d47c984d4f98d14b3c4d0039a0c004a3c47c7dda15e81ae49e08c4",
+      "source": "Railway Track fault Detection Updated/Train/Non defective/IMG_20201114_102443.jpg",
+      "label": 1,
+      "split": "train"
+    },
+    {
+      "file": "9cfcf8979d1ad72e028d22e6f5a96ba4ac83fe277813604be2ae9606fde2639a.png",
+      "sha256_pixels": "9cfcf8979d1ad72e028d22e6f5a96ba4ac83fe277813604be2ae9606fde2639a",
+      "source": "Railway Track fault Detection Updated/Train/Non defective/IMG_20201114_102447.jpg",
+      "label": 1,
+      "split": "train"
+    },
+    {
+      "file": "ad877ea42fa037a5d5a09e6b29b5ef047ebd864e4d3a977d675f36aed3260e4d.png",
+      "sha256_pixels": "ad877ea42fa037a5d5a09e6b29b5ef047ebd864e4d3a977d675f36aed3260e4d",
+      "source": "Railway Track fault Detection Updated/Train/Non defective/IMG_20201114_102450.jpg",
+      "label": 1,
+      "split": "train"
+    },
+    {
+      "file": "cd46032b9e3e0b6809fbcaedc33d7f3e312f1ab6a51cb44722cc7f91747669c8.png",
+      "sha256_pixels": "cd46032b9e3e0b6809fbcaedc33d7f3e312f1ab6a51cb44722cc7f91747669c8",
+      "source": "Railway Track fault Detection Updated/Train/Non defective/IMG_20201114_102455.jpg",
+      "label": 1,
+      "split": "train"
+    },
+    {
+      "file": "6249064857b27ea8bbe0d9bc9718dcc57503d6113f8a024e3be7a40c112e6f45.png",
+      "sha256_pixels": "6249064857b27ea8bbe0d9bc9718dcc57503d6113f8a024e3be7a40c112e6f45",
+      "source": "Railway Track fault Detection Updated/Train/Non defective/IMG_20201114_102458.jpg",
+      "label": 1,
+      "split": "train"
+    },
+    {
+      "file": "d045dacdf458ae18936e2decc042b0805cdd0afd24644ed2a7653377eae8998f.png",
+      "sha256_pixels": "d045dacdf458ae18936e2decc042b0805cdd0afd24644ed2a7653377eae8998f",
+      "source": "Railway Track fault Detection Updated/Train/Non defective/IMG_20201114_102506.jpg",
+      "label": 1,
+      "split": "train"
+    },
+    {
+      "file": "3be16d3f1e5bda62c5688e424ace8ec260f71cf5b4c7cfe089fb90fc83418e2b.png",
+      "sha256_pixels": "3be16d3f1e5bda62c5688e424ace8ec260f71cf5b4c7cfe089fb90fc83418e2b",
+      "source": "Railway Track fault Detection Updated/Train/Non defective/IMG_20201114_102509.jpg",
+      "label": 1,
+      "split": "train"
+    },
+    {
+      "file": "99f66a2dd9aaaa0b639a5b61a154aedb1a2bf02cd0c583a3f4ecffd7e0d88693.png",
+      "sha256_pixels": "99f66a2dd9aaaa0b639a5b61a154aedb1a2bf02cd0c583a3f4ecffd7e0d88693",
+      "source": "Railway Track fault Detection Updated/Train/Non defective/IMG_20201114_102511.jpg",
+      "label": 1,
+      "split": "train"
+    },
+    {
+      "file": "fb1b91666727f6b5413124504b760f5660b7af81d64b4680b82203d2ee371273.png",
+      "sha256_pixels": "fb1b91666727f6b5413124504b760f5660b7af81d64b4680b82203d2ee371273",
+      "source": "Railway Track fault Detection Updated/Train/Non defective/IMG_20201114_102542.jpg",
+      "label": 1,
+      "split": "train"
+    },
+    {
+      "file": "9e5fcb3486eead0159d8bec424f28aa3ca6493769429ec7f1822285e29850e17.png",
+      "sha256_pixels": "9e5fcb3486eead0159d8bec424f28aa3ca6493769429ec7f1822285e29850e17",
+      "source": "Railway Track fault Detection Updated/Train/Non defective/IMG_20201114_102545.jpg",
+      "label": 1,
+      "split": "train"
+    },
+    {
+      "file": "9e03aaf8da81c736edb44090cecf75b2dce02aefe20d43622cb555591f0fdcc3.png",
+      "sha256_pixels": "9e03aaf8da81c736edb44090cecf75b2dce02aefe20d43622cb555591f0fdcc3",
+      "source": "Railway Track fault Detection Updated/Train/Non defective/IMG_20201114_102555.jpg",
+      "label": 1,
+      "split": "train"
+    },
+    {
+      "file": "243ca67ce8b85910fb222eacd2906b36ec81b3c9cd8a7febccb5d11ff4b6e462.png",
+      "sha256_pixels": "243ca67ce8b85910fb222eacd2906b36ec81b3c9cd8a7febccb5d11ff4b6e462",
+      "source": "Railway Track fault Detection Updated/Train/Non defective/IMG_20201114_102558.jpg",
+      "label": 1,
+      "split": "train"
+    },
+    {
+      "file": "5456ca89a5de2b6217779867c7742d6c237f8a9d05dd63a73da673fc8fbb9aa7.png",
+      "sha256_pixels": "5456ca89a5de2b6217779867c7742d6c237f8a9d05dd63a73da673fc8fbb9aa7",
+      "source": "Railway Track fault Detection Updated/Train/Non defective/IMG_20201114_102602.jpg",
+      "label": 1,
+      "split": "train"
+    },
+    {
+      "file": "99fb311f8a9a716027a122875d0cd9d72786b24c3444e74d0e229cc864b48676.png",
+      "sha256_pixels": "99fb311f8a9a716027a122875d0cd9d72786b24c3444e74d0e229cc864b48676",
+      "source": "Railway Track fault Detection Updated/Train/Non defective/IMG_20201114_102615.jpg",
+      "label": 1,
+      "split": "train"
+    },
+    {
+      "file": "0af37596843192d4f0d2842adff6fcfda1f84e5ed24c7f392f00b679c2ad98d5.png",
+      "sha256_pixels": "0af37596843192d4f0d2842adff6fcfda1f84e5ed24c7f392f00b679c2ad98d5",
+      "source": "Railway Track fault Detection Updated/Train/Non defective/IMG_20201114_102623.jpg",
+      "label": 1,
+      "split": "train"
+    },
+    {
+      "file": "5dbe8c988471a23120441c3689d217ff970756e9418f1cc88cb25c0223a96329.png",
+      "sha256_pixels": "5dbe8c988471a23120441c3689d217ff970756e9418f1cc88cb25c0223a96329",
+      "source": "Railway Track fault Detection Updated/Train/Non defective/IMG_20201114_102631.jpg",
+      "label": 1,
+      "split": "train"
+    },
+    {
+      "file": "82cf27185fac5073ca184e6cc5527106265817a7dcb9e9ad79e41145264e29e2.png",
+      "sha256_pixels": "82cf27185fac5073ca184e6cc5527106265817a7dcb9e9ad79e41145264e29e2",
+      "source": "Railway Track fault Detection Updated/Train/Non defective/IMG_20201114_102637.jpg",
+      "label": 1,
+      "split": "train"
+    },
+    {
+      "file": "3e86157e977c5779b9f6d560478791442527b3c71d503d7796d37e237199aae4.png",
+      "sha256_pixels": "3e86157e977c5779b9f6d560478791442527b3c71d503d7796d37e237199aae4",
+      "source": "Railway Track fault Detection Updated/Train/Non defective/IMG_20201114_102641.jpg",
+      "label": 1,
+      "split": "train"
+    },
+    {
+      "file": "37b4789a08cf029287b56ee18a34aaaf57ec5e6198730eea006d9b61ac8c48bc.png",
+      "sha256_pixels": "37b4789a08cf029287b56ee18a34aaaf57ec5e6198730eea006d9b61ac8c48bc",
+      "source": "Railway Track fault Detection Updated/Train/Non defective/IMG_20201114_102646.jpg",
+      "label": 1,
+      "split": "train"
+    },
+    {
+      "file": "13882b6a6fc1735c16fd2e9ddb74588401f91c64e10d5b9f03427e1f5c966bd4.png",
+      "sha256_pixels": "13882b6a6fc1735c16fd2e9ddb74588401f91c64e10d5b9f03427e1f5c966bd4",
+      "source": "Railway Track fault Detection Updated/Train/Non defective/IMG_20201114_102649.jpg",
+      "label": 1,
+      "split": "train"
+    },
+    {
+      "file": "77cd7aa70576626371c4264a9e6f4eab3861c3aa17bbe33340af771e7b48a3da.png",
+      "sha256_pixels": "77cd7aa70576626371c4264a9e6f4eab3861c3aa17bbe33340af771e7b48a3da",
+      "source": "Railway Track fault Detection Updated/Train/Non defective/IMG_20201114_102701.jpg",
+      "label": 1,
+      "split": "train"
+    },
+    {
+      "file": "d905e26481bb44584820b5a75c407ed13ecf77160765754160169c2a62d6bbf2.png",
+      "sha256_pixels": "d905e26481bb44584820b5a75c407ed13ecf77160765754160169c2a62d6bbf2",
+      "source": "Railway Track fault Detection Updated/Train/Non defective/IMG_20201114_102703.jpg",
+      "label": 1,
+      "split": "train"
+    },
+    {
+      "file": "b3353f92a536e6a19cf31d50a8abbee6dbbfe54f098c2560f3b9d7209db0719c.png",
+      "sha256_pixels": "b3353f92a536e6a19cf31d50a8abbee6dbbfe54f098c2560f3b9d7209db0719c",
+      "source": "Railway Track fault Detection Updated/Train/Non defective/IMG_20201114_102712.jpg",
+      "label": 1,
+      "split": "train"
+    },
+    {
+      "file": "42fdf0c8a041bb653a80316707853dad6362d8f5ae8209461c32004ee17d6d9a.png",
+      "sha256_pixels": "42fdf0c8a041bb653a80316707853dad6362d8f5ae8209461c32004ee17d6d9a",
+      "source": "Railway Track fault Detection Updated/Train/Non defective/IMG_20201114_102714.jpg",
+      "label": 1,
+      "split": "train"
+    },
+    {
+      "file": "239ba48647d56bdeb537d21080df528cf4c456542ff9c09032448e393bff6d89.png",
+      "sha256_pixels": "239ba48647d56bdeb537d21080df528cf4c456542ff9c09032448e393bff6d89",
+      "source": "Railway Track fault Detection Updated/Train/Non defective/IMG_20201114_102744.jpg",
+      "label": 1,
+      "split": "train"
+    },
+    {
+      "file": "615430aa5838e2ad4cf7b98ab3e712d1d782124c0207f3c56d98dd063122ebd2.png",
+      "sha256_pixels": "615430aa5838e2ad4cf7b98ab3e712d1d782124c0207f3c56d98dd063122ebd2",
+      "source": "Railway Track fault Detection Updated/Train/Non defective/IMG_20201114_102757.jpg",
+      "label": 1,
+      "split": "train"
+    },
+    {
+      "file": "f40cc1b746d644221583dfea43fad817fdbe1f48848904007d0d82707b60999a.png",
+      "sha256_pixels": "f40cc1b746d644221583dfea43fad817fdbe1f48848904007d0d82707b60999a",
+      "source": "Railway Track fault Detection Updated/Train/Non defective/IMG_20201114_102759.jpg",
+      "label": 1,
+      "split": "train"
+    },
+    {
+      "file": "986ea5a0aa49c4f072b312ec784159f328ca83d8575d1a7500eed6a5a9275b79.png",
+      "sha256_pixels": "986ea5a0aa49c4f072b312ec784159f328ca83d8575d1a7500eed6a5a9275b79",
+      "source": "Railway Track fault Detection Updated/Train/Non defective/IMG_20201114_102822.jpg",
+      "label": 1,
+      "split": "train"
+    },
+    {
+      "file": "78c1263f1a85086d2a57b4b89de4d8fb23eaea12228447f45a0b241c61449495.png",
+      "sha256_pixels": "78c1263f1a85086d2a57b4b89de4d8fb23eaea12228447f45a0b241c61449495",
+      "source": "Railway Track fault Detection Updated/Train/Non defective/IMG_20201114_102836.jpg",
+      "label": 1,
+      "split": "train"
+    },
+    {
+      "file": "4cef1e7f40e75e87a3e4372f62b4c206de667b790d5be01247bfb7f1dc98d0b9.png",
+      "sha256_pixels": "4cef1e7f40e75e87a3e4372f62b4c206de667b790d5be01247bfb7f1dc98d0b9",
+      "source": "Railway Track fault Detection Updated/Train/Non defective/IMG_20201114_102839.jpg",
+      "label": 1,
+      "split": "train"
+    },
+    {
+      "file": "c5c035a80a37d17c21d1ce5b96c86d24296dca4e63cb0d465ea8d23b2545afa1.png",
+      "sha256_pixels": "c5c035a80a37d17c21d1ce5b96c86d24296dca4e63cb0d465ea8d23b2545afa1",
+      "source": "Railway Track fault Detection Updated/Train/Non defective/IMG_20201114_102847.jpg",
+      "label": 1,
+      "split": "train"
+    },
+    {
+      "file": "924f7f2141ea50138f94b3c91deaad294bf826beb8527581c9cf0d55351c62c8.png",
+      "sha256_pixels": "924f7f2141ea50138f94b3c91deaad294bf826beb8527581c9cf0d55351c62c8",
+      "source": "Railway Track fault Detection Updated/Train/Non defective/IMG_20201114_102850.jpg",
+      "label": 1,
+      "split": "train"
+    },
+    {
+      "file": "d54ac8d6f343733cb01c63519cfff24127b8e16b665443f7a8236d7335722ad7.png",
+      "sha256_pixels": "d54ac8d6f343733cb01c63519cfff24127b8e16b665443f7a8236d7335722ad7",
+      "source": "Railway Track fault Detection Updated/Train/Non defective/IMG_20201114_102854.jpg",
+      "label": 1,
+      "split": "train"
+    },
+    {
+      "file": "cc85cb12fddeef8b709d31cd391e12bd851069bce79ea9b8ee6571a567458c8e.png",
+      "sha256_pixels": "cc85cb12fddeef8b709d31cd391e12bd851069bce79ea9b8ee6571a567458c8e",
+      "source": "Railway Track fault Detection Updated/Train/Non defective/IMG_20201114_102902.jpg",
+      "label": 1,
+      "split": "train"
+    },
+    {
+      "file": "f4d27a262d4f38b905f64dc0f21af51458620e7f94356a118ff9e76660f73876.png",
+      "sha256_pixels": "f4d27a262d4f38b905f64dc0f21af51458620e7f94356a118ff9e76660f73876",
+      "source": "Railway Track fault Detection Updated/Train/Non defective/IMG_20201114_102912.jpg",
+      "label": 1,
+      "split": "train"
+    },
+    {
+      "file": "ed2ed991e503691ed0bad6065cb18e17668c61fde5ab2983c4a36fe0405db168.png",
+      "sha256_pixels": "ed2ed991e503691ed0bad6065cb18e17668c61fde5ab2983c4a36fe0405db168",
+      "source": "Railway Track fault Detection Updated/Train/Non defective/IMG_20201114_102922.jpg",
+      "label": 1,
+      "split": "train"
+    },
+    {
+      "file": "4e627a5e406ec27ec5a7bab69b7b84a2928ad7ecd9d5e674592146ce7b0af6ce.png",
+      "sha256_pixels": "4e627a5e406ec27ec5a7bab69b7b84a2928ad7ecd9d5e674592146ce7b0af6ce",
+      "source": "Railway Track fault Detection Updated/Train/Non defective/IMG_20201114_102948.jpg",
+      "label": 1,
+      "split": "train"
+    },
+    {
+      "file": "d76edb5389914e1afbe05443fbeecc50566cfb123fc1a5870bfce3a8ea5e5d9d.png",
+      "sha256_pixels": "d76edb5389914e1afbe05443fbeecc50566cfb123fc1a5870bfce3a8ea5e5d9d",
+      "source": "Railway Track fault Detection Updated/Train/Non defective/IMG_20201114_103004.jpg",
+      "label": 1,
+      "split": "train"
+    },
+    {
+      "file": "e69ccaa0f7c4ec4729e6ee5783c5e2c8118aac393a359fe1bdb3d107e76f53bc.png",
+      "sha256_pixels": "e69ccaa0f7c4ec4729e6ee5783c5e2c8118aac393a359fe1bdb3d107e76f53bc",
+      "source": "Railway Track fault Detection Updated/Train/Non defective/IMG_20201114_103008.jpg",
+      "label": 1,
+      "split": "train"
+    },
+    {
+      "file": "dff2dd3b2cfc7241f1caf49deb8c24028b1e1baaaf7054586bf77f8332f0381a.png",
+      "sha256_pixels": "dff2dd3b2cfc7241f1caf49deb8c24028b1e1baaaf7054586bf77f8332f0381a",
+      "source": "Railway Track fault Detection Updated/Train/Non defective/IMG_20201114_103009.jpg",
+      "label": 1,
+      "split": "train"
+    },
+    {
+      "file": "1a75d8558d3fb45089e0c6359c03f276a6395d1cae3f0f79eaf9e8cb18372ba0.png",
+      "sha256_pixels": "1a75d8558d3fb45089e0c6359c03f276a6395d1cae3f0f79eaf9e8cb18372ba0",
+      "source": "Railway Track fault Detection Updated/Train/Non defective/IMG_20201114_103020.jpg",
+      "label": 1,
+      "split": "train"
+    },
+    {
+      "file": "3ebcc6b7e23b920d11c0ec38d745d22c0a9a67fe930ac061a8d36337aede51a3.png",
+      "sha256_pixels": "3ebcc6b7e23b920d11c0ec38d745d22c0a9a67fe930ac061a8d36337aede51a3",
+      "source": "Railway Track fault Detection Updated/Train/Non defective/IMG_20201114_103022.jpg",
+      "label": 1,
+      "split": "train"
+    },
+    {
+      "file": "40273cdaf5f749087e52ef5e225a5a4c3f327f376c3889df4c0bcd8c091ac59d.png",
+      "sha256_pixels": "40273cdaf5f749087e52ef5e225a5a4c3f327f376c3889df4c0bcd8c091ac59d",
+      "source": "Railway Track fault Detection Updated/Train/Non defective/IMG_20201114_103048.jpg",
+      "label": 1,
+      "split": "train"
+    },
+    {
+      "file": "c202ee1ff6b3f1d5d99f300da6de02c3a87a0b0b48c7699df794226c7aef4133.png",
+      "sha256_pixels": "c202ee1ff6b3f1d5d99f300da6de02c3a87a0b0b48c7699df794226c7aef4133",
+      "source": "Railway Track fault Detection Updated/Train/Non defective/IMG_20201114_103055.jpg",
+      "label": 1,
+      "split": "train"
+    },
+    {
+      "file": "9935578a41cba1d5b33647ea46cbd3b365bfd7135e85f4cf86019b697425df88.png",
+      "sha256_pixels": "9935578a41cba1d5b33647ea46cbd3b365bfd7135e85f4cf86019b697425df88",
+      "source": "Railway Track fault Detection Updated/Train/Non defective/IMG_20201114_103114.jpg",
+      "label": 1,
+      "split": "train"
+    },
+    {
+      "file": "890404dc29fd80c6dd35dcd0ac12d4ac36944b0c61c5eaa4c8bd12e2948752e5.png",
+      "sha256_pixels": "890404dc29fd80c6dd35dcd0ac12d4ac36944b0c61c5eaa4c8bd12e2948752e5",
+      "source": "Railway Track fault Detection Updated/Train/Non defective/IMG_20201114_103142.jpg",
+      "label": 1,
+      "split": "train"
+    },
+    {
+      "file": "545a15baccbf4dacf9a7dca2b23e8355a09edd769792eb4b84d202fbb109fcf5.png",
+      "sha256_pixels": "545a15baccbf4dacf9a7dca2b23e8355a09edd769792eb4b84d202fbb109fcf5",
+      "source": "Railway Track fault Detection Updated/Train/Non defective/IMG_20201114_103317.jpg",
+      "label": 1,
+      "split": "train"
+    },
+    {
+      "file": "dd3b7feb2eb03de680519298a848c8e06d6c20926ad0b545a3446bfca01c67d3.png",
+      "sha256_pixels": "dd3b7feb2eb03de680519298a848c8e06d6c20926ad0b545a3446bfca01c67d3",
+      "source": "Railway Track fault Detection Updated/Train/Non defective/IMG_20201114_103321.jpg",
+      "label": 1,
+      "split": "train"
+    },
+    {
+      "file": "3eb6ced57867565db65b514cc248ac20376337be80aaca372a009d04263b896a.png",
+      "sha256_pixels": "3eb6ced57867565db65b514cc248ac20376337be80aaca372a009d04263b896a",
+      "source": "Railway Track fault Detection Updated/Train/Non defective/IMG_20201114_103326.jpg",
+      "label": 1,
+      "split": "train"
+    }
+  ]
+}

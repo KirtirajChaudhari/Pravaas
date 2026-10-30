@@ -1,0 +1,58 @@
+[
+  {
+    "id": "rail-yolo",
+    "name": "YOLOv8n \u00b7 rail regions",
+    "mode": "defects",
+    "task": "detect",
+    "input_size": 416,
+    "classes": [
+      "railway"
+    ],
+    "path": "models/rail-yolo.onnx",
+    "externalData": [],
+    "origin": "Inherited reference weights; not trained in this rebuild",
+    "source": "https://github.com/pradeepxkumar/Rail-defect-detection",
+    "sha256_source": "89a4628f7236f3a85aaf9cc9ea17400642631e2ad295312c1ee67e6bb1828ec8",
+    "description": "Localizes railway regions. Does not classify rail defects.",
+    "metrics": null
+  },
+  {
+    "id": "obstacle-yolo",
+    "name": "YOLO11s \u00b7 track obstacles",
+    "mode": "obstacles",
+    "task": "detect",
+    "input_size": 416,
+    "classes": [
+      "Animal",
+      "Debris",
+      "Human",
+      "Object",
+      "Stone",
+      "Tree"
+    ],
+    "path": "models/obstacle-yolo.onnx",
+    "externalData": [
+      {
+        "path": "obstacle-yolo-weights-0.bin",
+        "data": "models/obstacle-yolo-weights-0.bin"
+      },
+      {
+        "path": "obstacle-yolo-weights-1.bin",
+        "data": "models/obstacle-yolo-weights-1.bin"
+      },
+      {
+        "path": "obstacle-yolo-weights-2.bin",
+        "data": "models/obstacle-yolo-weights-2.bin"
+      },
+      {
+        "path": "obstacle-yolo-weights-3.bin",
+        "data": "models/obstacle-yolo-weights-3.bin"
+      }
+    ],
+    "origin": "Inherited reference weights; not trained in this rebuild",
+    "source": "https://github.com/KirtirajChaudhari/Pravaas",
+    "sha256_source": "2ed4c315761a4b01e207251fe7d7b6f0b5541faa3962c8e874133efc15aa2928",
+    "description": "Six obstacle classes \u00b7 inherited YOLO11s checkpoint.",
+    "metrics": null
+  }
+]
